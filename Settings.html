@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings | Unblocked Games</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="custom-cursor"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+
+  <nav class="navbar">
+    <div class="nav-logo">
+      <i class="fa-solid fa-gamepad"></i>
+      <a href="Index.html">Unblocked<span>Games</span></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="GamePage.html">Games</a></li>
+      <li><a href="Settings.html" class="active">Settings</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="btn btn-secondary" onclick="window.location.href='https://classroom.google.com'"
+        title="Panic Button (Esc)">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </button>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main class="container narrow">
+    <div class="page-header scroll-animate">
+      <h1>Settings</h1>
+      <p>Your preferences are saved locally on this device.</p>
+    </div>
+
+    <div class="glass-card setting-card scroll-animate delay-1">
+      <h2><i class="fa-solid fa-shield-cat"></i> Stealth Mode</h2>
+
+      <div class="setting-item">
+        <div class="setting-text">
+          <h4>Enable Panic Button</h4>
+          <p>Press ESC to instantly redirect to your panic URL (great for class!).</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="panicToggle" checked onchange="saveSettings()">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="setting-item">
+        <div class="setting-text">
+          <h4>Panic URL</h4>
+          <p>Where the panic button takes you.</p>
+        </div>
+        <input type="text" id="panicUrl" class="input-control" value="https://classroom.google.com" onchange="saveSettings()">
+      </div>
+    </div>
+
+    <div class="glass-card setting-card scroll-animate delay-2">
+      <h2><i class="fa-solid fa-palette"></i> Appearance &amp; Theme</h2>
+
+      <div class="setting-item">
+        <div class="setting-text">
+          <h4>Animations</h4>
+          <p>Background glow and hover effects. Turn off for a calmer page.</p>
+        </div>
+        <label class="switch">
+          <input type="checkbox" id="animToggle" checked onchange="saveSettings()">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <div class="theme-grid" id="themeGrid"></div>
+
+      <div class="mt-2" style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+        <button class="btn btn-secondary" onclick="resetSettings()">
+          <i class="fa-solid fa-rotate-left"></i> Reset Defaults
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <script src="javascript.js"></script>
+  <script>
+    /* ---------- Theme picker ---------- */
+    const THEME_OPTIONS = [
+      { id: 'default',  label: 'Light',    sw: '#ffffff' },
+      { id: 'dark',     label: 'Dark',     sw: '#1d1d1f' },
+      { id: 'graphite', label: 'Graphite', sw: '#ececec' },
+      { id: 'midnight', label: 'Midnight', sw: '#16203a' },
+      { id: 'ocean',    label: 'Ocean',    sw: '#0a84c4' },
+      { id: 'mint',     label: 'Mint',     sw: '#1d9e5a' },
+      { id: 'sunset',   label: 'Sunset',   sw: '#ff7a1a' },
+      { id: 'rose',     label: 'Rose',     sw: '#e63e6b' },
+    ];
+
+    function buildThemeGrid() {
+      const grid = document.getElementById('themeGrid');
+      const saved = localStorage.getItem('siteTheme') || 'default';
+      THEME_OPTIONS.forEach((t) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'theme-btn' + (t.id === saved ? ' active' : '');
+        btn.dataset.theme = t.id;
+        btn.innerHTML =
+          '<span class="theme-swatch" style="--sw-1:' + t.sw + ';"></span>' +
+          '<span>' + t.label + '</span>';
+        btn.addEventListener('click', () => setTheme(t.id));
+        grid.appendChild(btn);
+      });
+    }
+
+    /* ---------- Settings persistence ---------- */
+    function saveSettings() {
+      localStorage.setItem('panicToggle', document.getElementById('panicToggle').checked);
+      localStorage.setItem('panicUrl', document.getElementById('panicUrl').value);
+      localStorage.setItem('animToggle', document.getElementById('animToggle').checked);
+      applyAnimations();
+    }
+
+    function resetSettings() {
+      localStorage.removeItem('panicToggle');
+      localStorage.removeItem('panicUrl');
+      localStorage.removeItem('animToggle');
+      localStorage.removeItem('siteTheme');
+      location.reload();
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      buildThemeGrid();
+
+      // Load saved settings
+      document.getElementById('panicToggle').checked = localStorage.getItem('panicToggle') !== 'false';
+      document.getElementById('panicUrl').value = localStorage.getItem('panicUrl') || 'https://classroom.google.com';
+      document.getElementById('animToggle').checked = localStorage.getItem('animToggle') !== 'false';
+    });
+  </script>
+</body>
+
+</html>

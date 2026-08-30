@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Unblocked Games</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <div class="custom-cursor"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <nav class="navbar">
+    <div class="nav-logo">
+      <i class="fa-solid fa-gamepad"></i>
+      <a href="Index.html">Unblocked<span>Games</span></a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="Index.html">Home</a></li>
+      <li><a href="GamePage.html">Games</a></li>
+      <li><a href="Settings.html">Settings</a></li>
+      <li><a href="Contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="btn btn-secondary" onclick="window.location.href='https://classroom.google.com'"
+        title="Panic Button (Esc)">
+        <i class="fa-solid fa-graduation-cap"></i>
+      </button>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <main class="container narrow">
+    <div class="page-header scroll-animate">
+      <h1>Get In Touch</h1>
+      <p>Request a new game or report a bug — we read everything.</p>
+    </div>
+
+    <form class="glass-card scroll-animate delay-1"
+      onsubmit="event.preventDefault(); document.getElementById('sentMsg').hidden = false; this.reset();">
+      <div class="input-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" class="input-control" placeholder="John Doe" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" class="input-control" placeholder="john@example.com" required>
+      </div>
+
+      <div class="input-group">
+        <label for="type">Reason for Contact</label>
+        <select id="type" class="input-control">
+          <option value="request">Game Request</option>
+          <option value="bug">Report a Bug</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="input-group">
+        <label for="message">Message</label>
+        <textarea id="message" class="input-control" rows="5" placeholder="Tell us more..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="width: 100%;">
+        <i class="fa-solid fa-paper-plane"></i> Send Message
+      </button>
+
+      <p id="sentMsg" class="text-center mt-2" hidden style="color: var(--accent-3);">
+        <i class="fa-solid fa-circle-check"></i> Thanks! Your message has been recorded (demo).
+      </p>
+    </form>
+  </main>
+
+  <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="javascript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIOT EMULATOR</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0a0a;
+            min-height: 100vh;
+            color: #a0a0a0;
+        }
+
+        .header {
+            background: #000000;
+            padding: 1.5rem 2rem;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            letter-spacing: 3px;
+        }
+
+        .header p {
+            margin-top: 0.5rem;
+            color: #666666;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        .content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .main-grid {
+            display: grid;
+            grid-template-columns: 380px 1fr;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .sidebar {
+            background: #141414;
+            padding: 2rem;
+            border: 1px solid #2a2a2a;
+            height: fit-content;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .sidebar h2 {
+            font-size: 1.3rem;
+            margin-bottom: 1.5rem;
+            color: #ffffff;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .form-section {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-section label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            font-size: 0.85rem;
+            color: #888888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .file-input-wrapper input[type="file"] {
+            opacity: 0;
+            position: absolute;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+
+        .file-button {
+            display: block;
+            width: 100%;
+            padding: 0.75rem;
+            background: #0a0a0a;
+            border: 2px dashed #3a3a3a;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+            color: #888888;
+            font-family: 'Courier New', monospace;
+        }
+
+        .file-button:hover {
+            background: #1a1a1a;
+            border-color: #4a4a4a;
+        }
+
+        .file-name {
+            margin-top: 0.5rem;
+            font-size: 0.75rem;
+            color: #666666;
+        }
+
+
+
+        .start-button {
+            width: 100%;
+            padding: 1rem;
+            background: #1a1a1a;
+            border: 1px solid #3a3a3a;
+            color: #ffffff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin-top: 1.5rem;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 2px;
+        }
+
+        .start-button:hover:not(:disabled) {
+            background: #2a2a2a;
+            border-color: #4a4a4a;
+        }
+
+        .start-button:disabled {
+            background: #0a0a0a;
+            border-color: #1a1a1a;
+            color: #3a3a3a;
+            cursor: not-allowed;
+        }
+
+        .status-box {
+            margin-top: 1.5rem;
+            padding: 1rem;
+            background: #0a0a0a;
+            font-size: 0.85rem;
+            border-left: 3px solid #3a3a3a;
+            font-family: 'Courier New', monospace;
+            color: #666666;
+        }
+
+        .game-area {
+            background: #141414;
+            border: 1px solid #2a2a2a;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            height: fit-content;
+        }
+
+        .game-container {
+            width: 100%;
+            height: auto;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #000000;
+        }
+
+        .placeholder {
+            text-align: center;
+            padding: 4rem 2rem;
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .placeholder-icon {
+            font-size: 6rem;
+            margin-bottom: 1.5rem;
+            opacity: 0.2;
+        }
+
+        .placeholder h3 {
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+            color: #666666;
+            letter-spacing: 2px;
+        }
+
+        .placeholder p {
+            color: #444444;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        .warning {
+            background: #0a0000;
+            border: 1px solid #3a0000;
+            padding: 1rem;
+            margin-top: 2rem;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #666666;
+            letter-spacing: 1px;
+        }
+
+        @media (max-width: 1024px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Emulator specific styles */
+        #game-display {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background: #000000;
+        }
+
+        #game-display > div {
+            max-width: 100% !important;
+            margin: 0 auto !important;
+        }
+
+        #game-display canvas {
+            max-width: 100% !important;
+            object-fit: contain !important;
+            display: block !important;
+            margin: 0 auto !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>RIOT EMULATOR</h1>
+    </div>
+
+    <div class="content">
+        <div class="main-grid">
+            <div class="sidebar">
+                <h2>Game Settings</h2>
+                
+                <div class="form-section">
+                    <label>Upload ROM</label>
+                    <div class="file-input-wrapper">
+                        <input type="file" id="rom" accept=".nes,.smc,.sfc,.n64,.z64,.gb,.gbc,.gba,.bin,.cue,.iso,.md,.sms,.gg,.a26,.a78">
+                        <div class="file-button">
+                            CHOOSE FILE
+                        </div>
+                    </div>
+                    <div class="file-name" id="fileName">No file selected</div>
+                </div>
+
+                <button class="start-button" id="startBtn" disabled>
+                    START GAME
+                </button>
+
+                <div class="status-box" id="status">
+                    Waiting for ROM file...
+                </div>
+            </div>
+
+            <div class="game-area">
+                <div class="game-container">
+                    <div id="game-display">
+                        <div class="placeholder">
+                            <h3>READY</h3>
+                            <p>Upload a ROM file to begin</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="warning">
+            ⚠ Only use ROM files you legally own
+        </div>
+    </div>
+
+    <script>
+        let selectedSystem = '';
+        let selectedFile = null;
+        let isLoading = false;
+
+        const romInput = document.getElementById('rom');
+        const startBtn = document.getElementById('startBtn');
+        const status = document.getElementById('status');
+        const fileName = document.getElementById('fileName');
+
+        // Auto-detect console from file extension
+        function detectConsole(filename) {
+            const ext = filename.toLowerCase().split('.').pop();
+            const consoleMap = {
+                'nes': 'nes',
+                'smc': 'snes',
+                'sfc': 'snes',
+                'n64': 'n64',
+                'z64': 'n64',
+                'gb': 'gb',
+                'gbc': 'gbc',
+                'gba': 'gba',
+                'bin': 'psx',
+                'cue': 'psx',
+                'iso': 'psx',
+                'md': 'segaMD',
+                'gen': 'segaMD',
+                'sms': 'segaMS',
+                'gg': 'segaGG',
+                'a26': 'atari2600',
+                'a78': 'atari7800'
+            };
+            return consoleMap[ext] || null;
+        }
+
+        function getConsoleName(core) {
+            const nameMap = {
+                'nes': 'Nintendo (NES)',
+                'snes': 'Super Nintendo (SNES)',
+                'n64': 'Nintendo 64 (N64)',
+                'gb': 'Game Boy',
+                'gbc': 'Game Boy Color',
+                'gba': 'Game Boy Advance',
+                'psx': 'PlayStation 1',
+                'segaMD': 'Sega Genesis',
+                'segaMS': 'Sega Master System',
+                'segaGG': 'Game Gear',
+                'atari2600': 'Atari 2600',
+                'atari7800': 'Atari 7800'
+            };
+            return nameMap[core] || 'Unknown';
+        }
+
+        romInput.addEventListener('change', (e) => {
+            if (e.target.files.length > 0) {
+                selectedFile = e.target.files[0];
+                fileName.textContent = selectedFile.name;
+                
+                // Auto-detect console
+                const detected = detectConsole(selectedFile.name);
+                if (detected) {
+                    selectedSystem = detected;
+                    status.textContent = 'Ready to start';
+                    startBtn.disabled = false;
+                } else {
+                    status.textContent = 'Unable to detect console. Please check file extension.';
+                    startBtn.disabled = true;
+                }
+            }
+        });
+
+        startBtn.addEventListener('click', () => {
+            if (!selectedSystem || !selectedFile || isLoading) return;
+
+            isLoading = true;
+            status.textContent = 'Loading emulator...';
+            startBtn.disabled = true;
+
+            const gameDisplay = document.getElementById('game-display');
+            gameDisplay.innerHTML = '';
+
+            const gameUrl = URL.createObjectURL(selectedFile);
+
+            window.EJS_player = '#game-display';
+            window.EJS_core = selectedSystem;
+            window.EJS_gameUrl = gameUrl;
+            window.EJS_pathtodata = 'https://cdn.emulatorjs.org/stable/data/';
+            window.EJS_startOnLoaded = true;
+            window.EJS_biosUrl = '';
+            window.EJS_gameID = null;
+
+            const existingScripts = document.querySelectorAll('script[src*="emulatorjs"]');
+            existingScripts.forEach(script => script.remove());
+
+            const script = document.createElement('script');
+            script.src = 'https://cdn.emulatorjs.org/stable/data/loader.js';
+            
+            let loadTimeout = setTimeout(() => {
+                status.textContent = 'Loading timeout - please try again';
+                isLoading = false;
+                startBtn.disabled = false;
+            }, 30000);
+
+            script.onload = () => {
+                clearTimeout(loadTimeout);
+                setTimeout(() => {
+                    status.textContent = `Now playing: ${getConsoleName(selectedSystem)}`;
+                    isLoading = false;
+                }, 2000);
+            };
+
+            script.onerror = () => {
+                clearTimeout(loadTimeout);
+                status.textContent = 'Failed to load emulator';
+                isLoading = false;
+                startBtn.disabled = false;
+            };
+
+            document.body.appendChild(script);
+        });
+    </script>
+</body>
+</html>

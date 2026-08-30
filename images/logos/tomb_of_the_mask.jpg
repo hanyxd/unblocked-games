@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<title>404 | Play Free HTML5 Games</title>
+		<meta name="description" content="Page not found">
+		<link rel="canonical" href="" />
+				<meta name="robots" content="noindex">
+								
+				
+		<link rel="preload" href="https://cpsgames.org/content/themes/cpsgames/fonts/font.css" as="style" onload="this.rel='stylesheet'">
+    	<link rel="stylesheet" href="https://cpsgames.org/content/themes/cpsgames/fonts/font.css">
+		<link rel="preload" href="https://cpsgames.org/content/themes/cpsgames/css/all-inone.css?v=1774301029" as="style" onload="this.rel='stylesheet'">
+    	<link rel="stylesheet" href="https://cpsgames.org/content/themes/cpsgames/css/all-inone.css?v=1774301029">
+				<style>
+			.slider{--slider-padding:1rem;--slider-column-gap:1rem;--slide-width:15%;--slide-min-width:8rem;position:relative;overflow:hidden}.slider__track{display:flex;overflow-x:auto;-ms-scroll-snap-type:x mandatory;scroll-snap-type:x mandatory;padding-inline:var(--slider-padding);scroll-behavior:smooth;list-style-type:none;padding:0;margin-right:calc(var(--slider-column-gap)* - 1);scrollbar-width:none}.slider__track>*{flex:0 0 var(--slide-width);min-width:var(--slide-min-width);scroll-snap-align:start;scroll-snap-stop:always;padding-right:var(--slider-column-gap)}.slider__track::-webkit-scrollbar{display:none}.slider__buttons [disabled]{border:0;display:none}.slide{display:flex;align-items:center;justify-content:space-between;width:100%;aspect-ratio:1/1;border-radius:1rem;color:#fff;font-size:1.5rem;font-weight:700;height:100%}.slider-link{text-align:center;color:var(--bs-body-bg)!important}.slider:last-child .slider__track>*:last-child{background:unset;border-radius:unset}.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 20%}.slider.first .slider__track>*:not(:first-child){flex:0 0 5%}@media only screen and (max-width:1311px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 30%}}@media only screen and (max-width:918px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 40%}}@media only screen and (max-width:590px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 100%}.slider.first{--slide-min-width:12rem}}@media only screen and (min-width:1024px){.slider{--slide-width:10%}}@media only screen and (min-width:1440px){.slider{--slide-width:10%}.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 20%}.slider.first .slider__track>*:not(:first-child){flex:0 0 10%}}@media only screen and (max-width:375px){.slider{--slide-min-width:6rem!important}.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 65%}.btn-slider-arrow{height:65%}.btn-slider-arrow{width:75%}.next-btn-icon{background-size:unset!important;padding:30px!important;margin:0!important}.previous-btn-icon{background-size:unset!important;padding:30px!important;margin:0!important}.slider-prev{margin-left:-5px!important}.btn-slider-arrow:active{border:0!important;border-color:rgba(0,0,0,0)!important;background-color:rgba(0,0,0,0)!important}}
+			.rightside-img{width:100%;height:auto;}
+			.small-thumb{max-width:205px}img.small-thumb{max-width:205px;border-radius:10px}img.cat-small-thumb{max-width:196px;height:196px;border-radius:10px}.page-item.disabled .page-link{color:var(--bs-body-bg);pointer-events:none;cursor:auto;background-color:var(--bs-success);border-color:#dee2e6}.game-iframe-container{overflow:hidden;width:100%;min-height:600px}.game-iframe{position:absolute;top:0;left:0;bottom:0;right:0;width:100%;height:100%;z-index:7}.game-info .rating i{margin-right:5px}.relgame-thumb{width:100%}img.relgame-thumb{height:auto;border-radius:10px}.btn-share{width:40px;height:40px;float:left;text-align:center;margin-right:15px}#tpl-comment-section{margin-top:30px;margin-bottom:20px}#comment-form{display:flex;margin-bottom:30px;border-bottom:1px solid #495569}.comment-profile-avatar{margin-right:20px}.comment-profile-avatar img{border-radius:50%;float:left;width:3.6rem;height:3.6rem;max-width:50px;max-height:50px}.comment-form-wrapper{background:#495569;margin-bottom:30px;box-shadow:0 4px 8px 0 rgba(50,50,50,0.1);border-radius:12px;padding:15px;width:100%}textarea.tpl-comment-input{background:#495569;color:#8296a5}textarea.tpl-comment-input:focus,textarea.tpl-comment-input:hover{background:#495569;color:#8296a5}.comment-form-wrapper textarea{padding:0;border:0}.post-comment-btn-wrapper{float:right;margin-top:15px}textarea#comment-input{height:100px}.user-comment-wrapper{display:flex}.tpl-user-comment{border-bottom:1px solid #495569;margin-bottom:30px}.tpl-comment-children .tpl-user-comment:last-child{border-bottom:0}img.tpl-user-comment-avatar{border-radius:50%;float:left;width:3.6rem;height:3.6rem;max-width:50px;max-height:50px;margin-right:20px}.tpl-comment-children img.tpl-user-comment-avatar{max-width:40px;max-height:40px}.tpl-comment-author{font-weight:bold}.tpl-user-comment .comment-content{margin-bottom:20px;width:100%}.tpl-comment-timestamp{margin-top:3px;font-size:15px;color:#938fb5}.tpl-comment-text{margin-top:13px;white-space:unset}.comment-actions{margin-top:15px}.comment-action-right{float:right}.comment-action-left{float:left}.tpl-comment-children{display:block;margin-left:70px}.tpl-reply-form{display:flex}.comment-reply-wrapper{margin-left:70px;background:#495569;margin-bottom:30px;box-shadow:0 4px 8px 0 rgba(50,50,50,0.1);border-radius:12px;padding:15px;width:100%}textarea.tpl-reply-input{background:#495569;color:#8296a5}textarea.tpl-reply-input:focus{background:#495569;color:#8296a5}.comment-reply-wrapper textarea{padding:0;border:0}.reply-action-buttons{float:right;margin-top:15px}.tpl-btn-cancel-reply{color:#938fb5}a.tpl-comment-reply,a.tpl-btn-show-replies,a.tpl-btn-hide-replies{color:#6d6b7d}.tpl-post-comment-btn,.tpl-btn-send-reply{background-color:#4848ac;border:0}#tpl-btn-load-more-comments{color:#938fb5}.comment-require-login-wrapper{display:flex;margin-bottom:40px}.comment-require-login-wrapper .comment-alert{padding:10px;background-color:#495569;text-align:center;width:100%;border-radius:8px}#mobile-play{position:relative}.mobile-thumb-play{background:#000;overflow:hidden}.mobile-thumb-play img{width:100%;opacity:.7}#mobile-play-btn{position:absolute;top:50%;left:50%;font-size:100px;color:#fff;transform:translate(-50%,-50%)}.bi-play-circle-fill::before{content:"\f4f2"}.bi::before,[class^="bi-"]::before,[class*=" bi-"]::before{display:inline-block;font-family:bootstrap-icons!important;font-style:normal;font-weight:normal!important;font-variant:normal;text-transform:none;line-height:1;vertical-align:-.125em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.custom-h3{font-size:17px!important}.custom-h4{font-size:16.5px!important}##cookieConsentBanner{z-index:99}@media(min-width:768px){.mb-md-2{margin-bottom:.5rem!important}.mb-md-3{margin-bottom:1rem!important}.mb-md-4{margin-bottom:1.5rem!important}.mb-md-5{margin-bottom:3rem!important}.mt-md-1{margin-top:.25rem!important}.mt-md-3{margin-top:1rem!important}.mt-md-4{margin-top:1.5rem!important}}@media only screen and (max-width:991px){.small-thumb,.cat-small-thumb{width:100%!important;height:auto!important}}@media only screen and (min-width:992px){.main{min-height:600px}}.green-shadow{box-shadow:0 22px 25px rgba(7,128,49,0.3);border-radius:30px}
+			@media only screen and (min-width:992px){#div-vi-1718600901{width:728px!important;height:90px!important}}
+			.modal{--bs-modal-zindex:1055;--bs-modal-width:500px;--bs-modal-padding:1rem;--bs-modal-margin:.5rem;--bs-modal-color:;--bs-modal-bg:var(--bs-body-bg);--bs-modal-border-color:var(--bs-border-color-translucent);--bs-modal-border-width:var(--bs-border-width);--bs-modal-border-radius:var(--bs-border-radius-lg);--bs-modal-box-shadow:var(--bs-box-shadow-sm);--bs-modal-inner-border-radius:calc(var(--bs-border-radius-lg) - (var(--bs-border-width)));--bs-modal-header-padding-x:1rem;--bs-modal-header-padding-y:1rem;--bs-modal-header-padding:1rem 1rem;--bs-modal-header-border-color:var(--bs-border-color);--bs-modal-header-border-width:var(--bs-border-width);--bs-modal-title-line-height:1.5;--bs-modal-footer-gap:.5rem;--bs-modal-footer-bg:;--bs-modal-footer-border-color:var(--bs-border-color);--bs-modal-footer-border-width:var(--bs-border-width);position:fixed;top:0;left:0;z-index:var(--bs-modal-zindex);display:none;width:100%;height:100%;overflow-x:hidden;overflow-y:auto;outline:0}
+			.mdal-dialog{position:relative;width:auto;margin:var(--bs-modal-margin);pointer-events:none}.modal.fade .modal-dialog{transition:transform .3s ease-out;transform:translate(0,-50px)}
+			@media(prefers-reduced-motion:reduce){.modal.fade .modal-dialog{transition:none}}
+			.modal.show .modal-dialog{transform:none}.modal.modal-static .modal-dialog{transform:scale(1.02)}.modal-dialog-scrollable{height:calc(100% - var(--bs-modal-margin)*2)}.modal-dialog-scrollable .modal-content{max-height:100%;overflow:hidden}.modal-dialog-scrollable .modal-body{overflow-y:auto}.modal-dialog-centered{display:flex;align-items:center;min-height:calc(100% - var(--bs-modal-margin)*2)}.modal-content{position:relative;display:flex;flex-direction:column;width:100%;color:var(--bs-modal-color);pointer-events:auto;background-color:var(--bs-modal-bg);background-clip:padding-box;border:var(--bs-modal-border-width) solid var(--bs-modal-border-color);border-radius:var(--bs-modal-border-radius);outline:0}.modal-backdrop{--bs-backdrop-zindex:1050;--bs-backdrop-bg:#000;--bs-backdrop-opacity:.5;position:fixed;top:0;left:0;z-index:var(--bs-backdrop-zindex);width:100vw;height:100vh;background-color:var(--bs-backdrop-bg)}.modal-backdrop.fade{opacity:0}.modal-backdrop.show{opacity:var(--bs-backdrop-opacity)}.modal-header{display:flex;flex-shrink:0;align-items:center;padding:var(--bs-modal-header-padding);border-bottom:var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);border-top-left-radius:var(--bs-modal-inner-border-radius);border-top-right-radius:var(--bs-modal-inner-border-radius)}.modal-header .btn-close,.modal-header .close,{background:var(--bs-modal-border-color);padding:calc(var(--bs-modal-header-padding-y)*0.5) calc(var(--bs-modal-header-padding-x)*0.5);margin:calc( - .5*var(--bs-modal-header-padding-y)) calc( - .5*var(--bs-modal-header-padding-x)) calc( - .5*var(--bs-modal-header-padding-y)) auto}.modal-title{margin-bottom:0;line-height:var(--bs-modal-title-line-height)}.modal-body{position:relative;flex:1 1 auto;padding:var(--bs-modal-padding)}.modal-footer{display:flex;flex-shrink:0;flex-wrap:wrap;align-items:center;justify-content:flex-end;padding:calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap)*0.5);background-color:var(--bs-modal-footer-bg);border-top:var(--bs-modal-footer-border-width) solid var(--bs-modal-footer-border-color);border-bottom-right-radius:var(--bs-modal-inner-border-radius);border-bottom-left-radius:var(--bs-modal-inner-border-radius)}.modal-footer>*{margin:calc(var(--bs-modal-footer-gap)*0.5)}
+			@media(min-width:576px){.modal{--bs-modal-margin:1.75rem;--bs-modal-box-shadow:var(--bs-box-shadow)}.modal-dialog{max-width:var(--bs-modal-width);margin-right:auto;margin-left:auto}.modal-sm{--bs-modal-width:300px}}
+			@media(min-width:992px){.modal-lg,.modal-xl{--bs-modal-width:800px}}@media(min-width:1200px){.modal-xl{--bs-modal-width:1140px}}
+			.modal-fullscreen{width:100vw;max-width:none;height:100%;margin:0}.modal-fullscreen .modal-content{height:100%;border:0;border-radius:0}.modal-fullscreen .modal-header,.modal-fullscreen .modal-footer{border-radius:0}.modal-fullscreen .modal-body{overflow-y:auto}
+			@media(max-width:575.98px){.modal-fullscreen-sm-down{width:100vw;max-width:none;height:100%;margin:0}.modal-fullscreen-sm-down .modal-content{height:100%;border:0;border-radius:0}.modal-fullscreen-sm-down .modal-header,.modal-fullscreen-sm-down .modal-footer{border-radius:0}.modal-fullscreen-sm-down .modal-body{overflow-y:auto}}
+			@media(max-width:767.98px){.modal-fullscreen-md-down{width:100vw;max-width:none;height:100%;margin:0}.modal-fullscreen-md-down .modal-content{height:100%;border:0;border-radius:0}.modal-fullscreen-md-down .modal-header,.modal-fullscreen-md-down .modal-footer{border-radius:0}.modal-fullscreen-md-down .modal-body{overflow-y:auto}}
+			@media(max-width:991.98px){.modal-fullscreen-lg-down{width:100vw;max-width:none;height:100%;margin:0}.modal-fullscreen-lg-down .modal-content{height:100%;border:0;border-radius:0}.modal-fullscreen-lg-down .modal-header,.modal-fullscreen-lg-down .modal-footer{border-radius:0}.modal-fullscreen-lg-down .modal-body{overflow-y:auto}}
+			@media(max-width:1199.98px){.modal-fullscreen-xl-down{width:100vw;max-width:none;height:100%;margin:0}.modal-fullscreen-xl-down .modal-content{height:100%;border:0;border-radius:0}.modal-fullscreen-xl-down .modal-header,.modal-fullscreen-xl-down .modal-footer{border-radius:0}.modal-fullscreen-xl-down .modal-body{overflow-y:auto}}
+			@media(max-width:1399.98px){.modal-fullscreen-xxl-down{width:100vw;max-width:none;height:100%;margin:0}.modal-fullscreen-xxl-down .modal-content{height:100%;border:0;border-radius:0}.modal-fullscreen-xxl-down .modal-header,.modal-fullscreen-xxl-down .modal-footer{border-radius:0}.modal-fullscreen-xxl-down .modal-body{overflow-y:auto}}
+			#cookieConsentBanner{z-index:99}
+			.side{position:absolute;position:-webkit-sticky;top:75px;left:0;height:100%;z-index:99}
+			#nav-bar{left:1.1vw;top:4.4vw;height:90.4vh;background:var(--navbar-dark-primary);border-radius:16px;display:flex;flex-direction:column;color:var(--navbar-light-primary);overflow:hidden;position:fixed}
+			.mask-a{position:relative;}
+			.maskLabel{border-radius:0 10px 10px 0;box-shadow:1px 1px 1px 0 #00000045,1px 1px 1px 0 #0000004f,2px 2px 3px 0;display:inline-flex;padding:2px 8px;justify-content:center;align-items:center;position:absolute;opacity:1;transition:opacity .2s linear;font-size:12px;font-weight:800;top:1px;left:0;-webkit-user-select:none;user-select:none;z-index:1}
+			.f20{font-size:20px;}
+			.maskLabel_hidden{display:none!important}.maskLabel_New{background:linear-gradient(90deg,#c93dd1,#8a4fff);color:#fff}.maskLabel_Updated{background:linear-gradient(90deg,#28c7df,#5082ff);color:#fff}.maskLabel_Trending{background:linear-gradient(90deg,#ffc352,#faff9c);color:#131a26}.maskLabel_Hot{background:linear-gradient(90deg,#ff2f0f,#ff8b2d);color:#fff}
+			.show_content{max-width:calc(100% - 30px);width:100%;bottom:20px;display:flex;align-items:flex-end;z-index:12}#moreCntBtn{position:relative;font-weight:500;display:flex;justify-content:flex-start;align-items:center;border-bottom-left-radius:8px;border-bottom-right-radius:8px;border:0;background:0;color:#fff;font-size:14px;width:100%;cursor:pointer;gap:12px;padding:15px 0;font-family:inherit}.svg-icon{display:inline-block;vertical-align:top;width:22px;height:22px;fill:currentColor;font-size:0}.arrow-icon-link{vertical-align:top;fill:inherit;width:inherit;height:inherit}
+			.recommended-games{position:relative;background:#0a0e29;border-radius:3px;border:1px solid #ffffff3b}.recommended-games__list{display:flex;flex-direction:column;padding:24px 0}
+			.slick-slider{box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list,.slick-slider,.slick-track{position:relative;display:block}.slick-slider .slick-list,.slick-slider .slick-track{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-list{-webkit-tap-highlight-color:transparent;overflow:hidden;margin:0}.slick-track{will-change:transform}.slick-track{top:0;left:0;margin-left:auto;margin-right:auto}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
+			.recommended-games__list .slick-list{padding:0 24px}.header-wrapper{display:flex;align-items:center}.header-wrapper-link{margin-left:1rem;background:linear-gradient(90deg,#ff2f0f,#ff8b2d);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.h3,h3{font-size:20px}
+			.btn-slider-arrow .previous-btn-icon,.btn-slider-arrow .next-btn-icon{background-size:auto}.slider.second:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 20%}.slider.second .slider__track>*:not(:first-child){flex:0 0 5%}@media only screen and (max-width:1311px){.slider.second:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 30%}}@media only screen and (max-width:918px){.slider.second:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 40%}}@media only screen and (max-width:590px){.slider.second:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 100%}.slider.second{--slide-min-width:12rem}}@media only screen and (min-width:1440px){.slider{--slide-width:10%}.slider.second:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 20%}.slider.second .slider__track>*:not(:first-child){flex:0 0 10%}}.slider.third:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 20%}.slider.third .slider__track>*:not(:first-child){flex:0 0 5%}@media only screen and (max-width:1311px){.slider.third:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 30%}}@media only screen and (max-width:918px){.slider.third:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 40%}}@media only screen and (max-width:590px){.slider.third:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 100%}.slider.third{--slide-min-width:12rem}}@media only screen and (min-width:1440px){.slider{--slide-width:10%}.slider.third:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 20%}.slider.third .slider__track>*:not(:first-child){flex:0 0 10%}}@media only screen and (max-width:375px){.slider{--slide-min-width:9rem!important}.slider.third:nth-child(1) .slider__track>*:nth-child(1){flex:0 0 100%}}.slider__buttons{pointer-events:none}.slider__buttons button{pointer-events:auto}
+			.vertical-slider{height:525px;overflow:hidden}.vertical-slider img{width:100%;border-radius:6px}@media only screen and (max-width:590px){.vertical-slider{height:330px}}
+			@media only screen and (max-width:1024px){#nav-bar{top:8vw}}@media only screen and (min-width:1024px) and (max-width:1200px){#nav-bar{top:7vw}}
+			.slick-slider{position:relative;display:block;box-sizing:border-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}.slick-list{position:relative;display:block;overflow:hidden;margin:0;padding:0}.slick-list:focus{outline:0}.slick-list.dragging{cursor:pointer;cursor:hand}.slick-slider .slick-track,.slick-slider .slick-list{-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0);-o-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}.slick-track{position:relative;top:0;left:0;display:block;margin-left:auto;margin-right:auto}.slick-track:before,.slick-track:after{display:table;content:''}.slick-track:after{clear:both}.slick-loading .slick-track{visibility:hidden}.slick-slide{display:none;float:left;height:100%;min-height:1px}[dir='rtl'] .slick-slide{float:right}.slick-slide img{display:block}.slick-slide.slick-loading img{display:none}.slick-slide.dragging img{pointer-events:none}.slick-initialized .slick-slide{display:block}.slick-loading .slick-slide{visibility:hidden}.slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}.slick-arrow.slick-hidden{display:none}
+			@media only screen and (max-width:590px){.new-games>*{min-width:12rem}}
+			@media only screen and (max-width:410px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 100%}.slider.first .slider__track>*:not(:first-child){flex:0 0 50%}}
+			@media only screen and (min-width:450px) and (max-width:590px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 80%}.slider.first .slider__track>*:not(:first-child){flex:0 0 35%;min-width:10rem}}
+			@media only screen and (min-width:590px) and (max-width:690px){.slider.first:nth-child(3n+1) .slider__track>*:nth-child(3n+1){flex:0 0 45%}}
+		
+			.pannel-bottom-ads{display:flex;flex-direction:column;align-items:center;margin:24px auto;}
+			.ads-div{display:block;min-height:90px;max-width:1200px;margin:0 auto;}
+			.leaderboard-banner-ads-728x90{display:flex;justify-content:center !important;align-items:center !important;width:100% !important;margin:0 auto !important;box-sizing:border-box !important;text-align:center !important;}
+			.adv-text {opacity:.66;color: #e4e6eb;font-size:11.5px;font-weight:300;height:21px;letter-spacing:.3px;line-height:21px;text-align:center;text-transform:uppercase;}
+			.mob-search-btn {display: none;}
+			.offcanvas-header .searchInput {min-width:16rem}
+			@media (max-width: 1024px){.pannel-bottom-ads{display:none !important;}.leaderboard-banner-ads-728x90{display:none !important;visibility:hidden !important;height:0 !important;overflow:hidden !important;}}
+			@media only screen and (max-width: 590px) {.game-header {text-align: center;align-items: center;justify-content: center;flex-direction: column;display: flex;gap: 1px !important;}}
+			@media only screen and (max-width: 992px) {.mob-search-btn{display: block;}.desk-search-bar{display: none;}}
+			body.fs-game {overflow: hidden !important;}
+			body.fs-game #play_box.play_box{position:fixed!important;left:0!important;right:0!important;top:var(--vvo,0px)!important;width:100vw!important;height:var(--vvh,100vh)!important;z-index:999999!important;background:#000!important;display:flex!important;flex-direction:column!important;align-items:stretch!important;padding-bottom:var(--barTotal,0px)!important;box-sizing:border-box!important}
+			body.fs-game #play_box .game-section-sample-bg,body.fs-game #play_box .game-section,body.fs-game #play_box .game-content,body.fs-game #play_box #game-player.game-iframe-container,body.fs-game #play_box .flash-container{width:100%!important;flex:1 1 auto!important;min-height:0!important;height:auto!important}
+			body.fs-game #play_box iframe.game-iframe{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;border:0!important;z-index:1!important}
+			body.fs-game #play_box .single-info-container{position:fixed!important;left:0!important;right:0!important;bottom:var(--vvb,0px)!important;z-index:1000000!important;padding-bottom:env(safe-area-inset-bottom)!important;margin:0!important;border-radius:0!important}
+			body.fs-game #play_box .single-info-container{background:rgba(33,33,33,0.92)!important;backdrop-filter:blur(6px)}
+			#viewFullscreen,#exitFullscreen{position:relative;z-index:1000002!important}
+			body.fs-game #play_box .mb-3{margin-bottom:0!important}
+			body.ad-showing #play_box.play_box{z-index:10!important}
+			body.ad-showing #play_box .single-info-container{z-index:11!important}
+			#play_box { position: relative; }
+			#reward-loader.game-loader{position:absolute;inset:0;z-index:2147483646;display:grid;place-items:center;background:rgba(10,10,18,0.55);backdrop-filter:blur(10px);pointer-events:auto}
+			#reward-loader.game-loader.is-hidden{display:none!important}
+			#reward-loader.game-loader.is-viewport{position:fixed!important;inset:0!important}
+			#reward-loader .glow-bg{position:absolute;inset:0;background:radial-gradient(circle at 50% 20%,rgba(120,70,255,.35),transparent 55%),radial-gradient(circle at 50% 70%,rgba(40,255,200,.25),transparent 60%);filter:blur(18px);opacity:.9}
+			#reward-loader .loader-wrap{position:relative;width:min(520px,88vw);padding:18px 18px;border-radius:18px}
+			#reward-loader .loader-bar{height:10px;border-radius:999px;overflow:hidden;background:rgba(255,255,255,0.12);box-shadow:inset 0 0 0 1px rgba(255,255,255,0.10)}
+			#reward-loader .loader-fill{height:100%;width:0;border-radius:999px;background:#3bd671;transition:width .18s ease;box-shadow:0 0 18px rgba(255,255,255,.25)}
+			#reward-loader .loader-text{margin-top:14px;text-align:center;color:rgba(255,255,255,.95);font-weight:700;font-size:18px}
+		</style>
+					<style>
+		#cookieConsentBanner{
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: #333;
+			color: white;
+			padding: 1em;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+			opacity: 0;
+			transform: translateY(10px);
+			pointer-events: none;
+			transition: opacity .25s ease, transform .25s ease;
+			z-index: 9999;
+		}
+		html.show-cookie-banner #cookieConsentBanner{
+		opacity: 1;
+		transform: translateY(0);
+		pointer-events: auto;
+		}
+
+		.cookie-consent-msg{
+		text-align: left;
+		flex: 1 1 auto;
+		min-width: 200px;
+		}
+
+		.cookie-consent-actions{
+		text-align: right;
+		display: flex;
+		gap: 10px;
+		flex: 0 0 auto;
+		}
+		@media (max-width: 767px){
+		#cookieConsentBanner{
+			left: 0;
+			right: 0;
+			bottom: 0;
+			max-width: none;
+			border-radius: 0;
+			padding: 14px;
+			flex-direction: column;
+			align-items: stretch;
+		}
+		.cookie-consent-msg,
+		.cookie-consent-actions{
+			width: 100%;
+			text-align: center;
+		}
+		.cookie-consent-actions{
+			justify-content: center;
+		}
+		}
+	</style>
+				</head>
+	<body>
+		<header class="header z-3 sticky">
+			<nav class="navbar navbar-expand-lg py-0">
+				<div class="side-header" style="display: block;"></div>
+				<div class="container-fluid">
+					
+					<button class="btn btn-secondary p-0 rounded-5 me-md-3 d-block d-md-none" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasmenu" aria-controls="offcanvasmenu">
+						<img src="https://cpsgames.org/images/left-sidebar-icon.svg" width="18" height="18" alt="Left Sidebar Menu Open Icon"
+							class="m-2">
+					</button>
+					<a class="navbar-brand logo-center" href="https://cpsgames.org/">
+						<img 
+							src="https://cpsgames.org/images/logo.webp"
+							srcset="
+								https://cpsgames.org/images/logo-191.webp 191w,
+								https://cpsgames.org/images/logo.webp 382w
+							"
+							sizes="(max-width: 767px) 191px, 382px"
+							width="191"
+							height="55"
+							alt="CPS Games"
+							decoding="async">	
+					</a>
+					<form class="position-relative mx-auto my-3 search-bar desk-search-bar" action="https://cpsgames.org/index.php">
+						<input type="hidden" name="viewpage" value="search">
+						<input type="text" class="form-control searchInput search" placeholder="Search" name="slug" minlength="2" required>
+						<button class="btn end-0 position-absolute top-0" type="submit">
+							<img src="https://cpsgames.org/images/search-icon.svg" width="18" height="18" alt="search icon ">
+						</button>
+					</form>
+					<button class="btn btn-secondary p-0 rounded-5 me-md-3 order-md-0 me-2 mob-search-btn" data-bs-toggle="offcanvas"
+						data-bs-target="#offcanvasSearch" aria-controls="offcanvasSearch">
+						<img src="https://cpsgames.org/images/search-icon.svg?v=1" width="25" height="25"
+								alt="search icon ">
+					</button>
+					<div class="d-none d-md-block">
+						<a class="btn btn-dark1 p-2 px-lg-3 mask-a" href="https://playvio.io/" target="_blank"><img src="https://cpsgames.org/images/brand-logo.png" width="170" height="48" alt="Playvio.io" class="img-fluid"><div class="maskLabel maskLabel_Hot">Hot</div></a>
+						<a class="btn btn-dark p-2 px-lg-3" href="https://cpsgames.org/page/developer">Developer</a>
+						<a class="btn btn-dark p-2 px-lg-3" href="https://cpsgames.org/page/about">About</a>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasSearch" aria-labelledby="offcanvasSearchLabel">
+			<div class="offcanvas-header">
+				<form class="position-relative mx-auto my-3 mob-search-bar" action="https://cpsgames.org/index.php">
+					<input type="hidden" name="viewpage" value="search" />
+					<input type="text" class="form-control searchInput search" placeholder="Search game" name="slug" minlength="2" required />
+					<button class="btn end-0 position-absolute top-0">
+						<img src="https://cpsgames.org/images/search-icon.svg?v=1" width="18" height="18"
+							alt="search icon ">
+					</button>
+				</form>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+		</div>
+		<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasmenu" aria-labelledby="offcanvasmenuLabel">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title" id="offcanvasmenuLabel"><a class="navbar-brand logo-center" href="#"><img
+							src="https://cpsgames.org/images/logo.webp" width="191" height="55" alt="CPS Games Logo">
+					</a></h5>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<div id="nav-content dropdown-menu">
+					
+					<a class="nav-button" href="https://cpsgames.org/"><i class="fas nav-icon home-icon p-1"></i><span>Home</span></a>
+					<a class="nav-button" href="https://cpsgames.org/new-games"><i class="fas nav-icon new-icon p-1"></i><span>New</span></a>
+					<a class="nav-button" href="https://cpsgames.org/trending-games"><i class="fas nav-icon trending-icon p-1"></i><span>Trending Now</span></a>
+					<a class="nav-button" href="https://cpsgames.org/random-games"><i class="fas nav-icon random-icon p-1"></i><span>Random</span></a>
+					<hr />
+
+												<a class="nav-button " href="https://cpsgames.org/category/io-games">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/io-icon.svg')"></i>
+							<span>.io Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/2-player">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/twoplayer-icon.svg')"></i>
+							<span>2 Player Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/action">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/action-icon.svg')"></i>
+							<span>Action Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/adventure">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/adventure-icon.svg')"></i>
+							<span>Adventure Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/arcade">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/arcade-icon.svg')"></i>
+							<span>Arcade Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/board">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/board-icon.svg')"></i>
+							<span>Board</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/car">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/car-icon.svg')"></i>
+							<span>Car</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/classic">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/classic-icon.svg')"></i>
+							<span>Classic</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/clicker">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/clicker-icon.svg')"></i>
+							<span>Clicker</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/cooking">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/cooking-icon.svg')"></i>
+							<span>Cooking</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/driving">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/driving-icon.svg')"></i>
+							<span>Driving</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/fighting">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/fighting-icon.svg')"></i>
+							<span>Fighting</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/funny">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/funny-icon.svg')"></i>
+							<span>Funny</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/hot-games">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/other.svg')"></i>
+							<span>Hot Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/multiplayer">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/multiplayer-icon.svg')"></i>
+							<span>Multiplayer</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/parkour">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/parkour-icon.svg')"></i>
+							<span>Parkour</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/popular-games">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/other.svg')"></i>
+							<span>Popular Games</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/puzzle">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/puzzle-icon.svg')"></i>
+							<span>Puzzle</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/shooting">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/shooting-icon.svg')"></i>
+							<span>Shooting</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/simulation">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/simulation-icon.svg')"></i>
+							<span>Simulation</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/skill">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/skill-icon.svg')"></i>
+							<span>Skill</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/sports">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/sport-icon.svg')"></i>
+							<span>Sports</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/stickman">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/other.svg')"></i>
+							<span>Stickman</span>
+							</a>
+														<a class="nav-button " href="https://cpsgames.org/category/strategy">
+							<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/strategy-icon.svg')"></i>
+							<span>Strategy</span>
+							</a>
+												<hr />
+					<div id="nav-content-highlight" class="d-none d-md-block"></div>
+					<div id="nav-footer-content">
+						<ul class="list-unstyled text-start ms-3">
+							<li><a href="https://cpsgames.org/page/about" class="text-secondary">About</a></li>
+							<li><a href="https://cpsgames.org/page/developer" class="text-secondary">Developer</a></li>
+							<li><a href="https://cpsgames.org/page/terms" class="text-secondary">Terms & conditions</a></li>
+							<li><a href="https://cpsgames.org/page/privacy" class="text-secondary">Privacy</a></li>
+							<li><a href="https://cpsgames.org/" class="text-secondary">All games</a></li>
+							<p>© 2026 cpsgames.org</p>
+						</ul>
+					</div>
+					<hr>
+					<a class="nav-button ms-1" href="https://cpsgames.org/page/contact"><i class="fas nav-icon contact-icon p-1"></i><span class="ms-2">Contact
+							us</span>
+					</a>
+					
+				</div>
+			</div>
+		</div>
+
+		<div class="content container-fluid pt-6">
+			<div class="side me-2 d-none d-md-flex">
+				<div id="nav-bar">
+					<input id="nav-toggle" type="checkbox" checked />
+					<div id="nav-header">
+						<label for="nav-toggle" class=""><img src="https://cpsgames.org//images/nav-toggle-icon-close.svg" width="40"
+								height="40" alt="open close icon for menu" class="nav-toggle-burger"></label>
+						
+					</div>
+					<div id="nav-content">
+						<a class="nav-button" href="https://cpsgames.org/"><i class="fas nav-icon home-icon p-1"></i><span>Home</span></a>
+						<a class="nav-button" href="https://cpsgames.org/new-games"><i class="fas nav-icon new-icon p-1"></i><span>New</span></a>
+						<a class="nav-button" href="https://cpsgames.org/trending-games"><i class="fas nav-icon trending-icon p-1"></i><span>Trending Now</span></a>
+						<a class="nav-button" href="https://cpsgames.org/random-games"><i class="fas nav-icon random-icon p-1"></i><span>Random</span></a>
+						<hr />
+														<a class="nav-button " href="https://cpsgames.org/category/io-games">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/io-icon.svg')"></i>
+								<span>.io Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/2-player">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/twoplayer-icon.svg')"></i>
+								<span>2 Player Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/action">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/action-icon.svg')"></i>
+								<span>Action Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/adventure">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/adventure-icon.svg')"></i>
+								<span>Adventure Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/arcade">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/arcade-icon.svg')"></i>
+								<span>Arcade Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/board">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/board-icon.svg')"></i>
+								<span>Board</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/car">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/car-icon.svg')"></i>
+								<span>Car</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/classic">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/classic-icon.svg')"></i>
+								<span>Classic</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/clicker">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/clicker-icon.svg')"></i>
+								<span>Clicker</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/cooking">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/cooking-icon.svg')"></i>
+								<span>Cooking</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/driving">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/driving-icon.svg')"></i>
+								<span>Driving</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/fighting">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/fighting-icon.svg')"></i>
+								<span>Fighting</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/funny">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/funny-icon.svg')"></i>
+								<span>Funny</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/hot-games">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/other.svg')"></i>
+								<span>Hot Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/multiplayer">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/multiplayer-icon.svg')"></i>
+								<span>Multiplayer</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/parkour">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/parkour-icon.svg')"></i>
+								<span>Parkour</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/popular-games">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/other.svg')"></i>
+								<span>Popular Games</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/puzzle">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/puzzle-icon.svg')"></i>
+								<span>Puzzle</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/shooting">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/shooting-icon.svg')"></i>
+								<span>Shooting</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/simulation">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/simulation-icon.svg')"></i>
+								<span>Simulation</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/skill">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/skill-icon.svg')"></i>
+								<span>Skill</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/sports">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/sport-icon.svg')"></i>
+								<span>Sports</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/stickman">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/other.svg')"></i>
+								<span>Stickman</span>
+								</a>
+																<a class="nav-button " href="https://cpsgames.org/category/strategy">
+								<i class="fas nav-icon p-1" style="background-image:url('https://cpsgames.org/images/strategy-icon.svg')"></i>
+								<span>Strategy</span>
+								</a>
+														<hr />
+						<div id="nav-content-highlight" class="d-none d-md-block"></div>
+					</div>
+					
+					<div id="nav-footer">
+						<div id="nav-footer-content">
+							<ul class="list-unstyled text-start ms-3">
+								<li><a href="https://cpsgames.org/page/about">About</a></li>
+								<li><a href="https://cpsgames.org/page/developer">Developer</a></li>
+								<li><a href="https://cpsgames.org/page/terms">Terms & conditions</a></li>
+								<li><a href="https://cpsgames.org/page/privacy">Privacy</a></li>
+								<li><a href="https://cpsgames.org/">All games</a></li>
+								<p>© 2026 cpsgames.org</p>
+							</ul>
+						</div>
+						<hr>
+						<a class="nav-button ms-1" href="https://cpsgames.org/page/contact"><i class="fas nav-icon contact-icon p-1"></i><span class="ms-2">Contact us</span></a>
+					</div>
+				</div>
+			</div>
+
+		
+<p></p>
+<div class="col-md-11 col-12 main px-2 px-md-0 mt-md-2">
+	<div class="row justify-content-evenly pe-md-0">
+		<div class="col-12 mb-4">
+			<div class="text-center row">
+				<div class="col">
+					<img src="https://cpsgames.org/content/themes/cpsgames/images/404.png" class="img-fluid">
+				</div>
+			</div>
+		</div>
+		<div class="col-12 mb-4">
+			<div class="header-wrapper">
+				<h2 class="mb-1 fw-bold f20">New <span class="text-success">Games</span></h2>
+				<a class="header-wrapper-link" href="https://cpsgames.org/new-games">View more ›</a>
+			</div>
+			<div class="slider">
+				<ul class="slider__track py-1 mb-0 new-games">
+					<li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/fish-orbit" class="mask-a"><img src="https://cpsgames.org/thumbs/fish-orbit_small.webp" alt="Fish Orbit" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/obby-world-squid-escape" class="mask-a"><img src="https://cpsgames.org/thumbs/obby-world-squid-escape_small.webp" alt="Obby World: Squid Escape" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/smashy-drift-racing" class="mask-a"><img src="https://cpsgames.org/thumbs/smashy-drift-racing_small.webp" alt="Smashy Drift Racing" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/bloxd-io" class="mask-a"><img src="https://cpsgames.org/thumbs/bloxd-io_small.webp" alt="Bloxd.io" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/madalin-stunt-cars-2" class="mask-a"><img src="https://cpsgames.org/thumbs/madalin-stunt-cars-2_small.webp" alt="Madalin Stunt Cars 2" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/pixel-shooter" class="mask-a"><img src="https://cpsgames.org/thumbs/pixel-shooter_small.webp" alt="Pixel Shooter" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/tap-road" class="mask-a"><img src="https://cpsgames.org/thumbs/tap-road_small.webp" alt="Tap Road" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/slope-cyber" class="mask-a"><img src="https://cpsgames.org/thumbs/slope-cyber_small.webp" alt="Slope Cyber" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/rally-point" class="mask-a"><img src="https://cpsgames.org/thumbs/rally-point_small.webp" alt="Rally Point" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li><li>
+								<div class="slide">
+									<a href="https://cpsgames.org/game/fruit-ninja" class="mask-a"><img src="https://cpsgames.org/thumbs/fruit-ninja_small.webp" alt="Fruit Ninja" class="small-thumb img-fluid thumbnail-img m-1" width="122" height="122"><div class="maskLabel maskLabel_hidden"></div></a>
+								</div>
+							</li>				</ul>
+				<div class="slider__buttons start-0 align-items-center carousel-control-prev h-100">
+					<button class="btn btn-slider-arrow p-0 me-auto slider-prev" disabled
+						aria-label="previous button"><span class="previous-btn-icon m-0 pt-0 p-5"></span></button>
+				</div>
+				<div class="slider__buttons end-0 align-items-center carousel-control-next h-100">
+					<button class="btn btn-slider-arrow p-0 ms-auto slider-next" aria-label="Next Button"><span
+							class="next-btn-icon m-0 pt-0 p-5"></span></button>
+				</div>
+			</div>
+		</div>
+		<div class="col-12 mb-4">
+			<div class="header-wrapper">
+				<h2 class="mb-1 fw-bold f20">Hot <span class="text-success">Games</span></h2>
+				<a class="header-wrapper-link" href="https://cpsgames.org/category/hot-games">View more ›</a>
+			</div>
+			<div class="slider second position-relative">
+				<ul class="slider__track py-1 mb-0">
+				<li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/sausage-flip" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/sausage-flip_small_new.webp" 
+									alt="Sausage Flip" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Hot">Hot</div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/tube-jumpers" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/tube-jumper-new-smallthumb_new.webp" 
+									alt="Tube Jumpers" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Updated">Updated</div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/curve-ball-3d" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/curve-ball-3d_small_new.webp" 
+									alt=" Curve Ball 3D " 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Hot">Hot</div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/crossy-road" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/crossy-road-new-smallthumb_2_new.webp" 
+									alt="Crossy Road" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/tanuki-sunset" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/tanuki-sunset_small_new.webp" 
+									alt="Tanuki Sunset" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Trending">Trending</div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/crazy-bikes" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/crazy-bikes_small_new.webp" 
+									alt="Crazy Bikes" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/short-ride" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/short-ride_small_new.webp" 
+									alt="Short Ride" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/candy-jumps" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/candy-jumps_small_new.webp" 
+									alt="Candy Jump" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/burnout-drift-hilltop" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/burnout-drift-hilltop_small_new.webp" 
+									alt="Burnout Drift Hilltop" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/red-ball-4" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/red-ball-4_small_new.webp" 
+									alt="Red Ball 4" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/snow-rider-3d" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/snow-rider-3d_small_new.webp" 
+									alt="Snow Rider 3D" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Updated">Updated</div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/temple-run-2" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/temple-run-2_small_new.webp" 
+									alt="Temple Run 2" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Hot">Hot</div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/justfall-lol" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/justfall-lol_small_new.webp" 
+									alt="JustFall.LOL" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Trending">Trending</div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/happy-wheel" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/happy-wheel_small_new.webp" 
+									alt="Happy Wheels" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Hot">Hot</div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/monkey-mart" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/monkey-mart_small_new.webp" 
+									alt="Monkey Mart" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Updated">Updated</div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/cannon-basketball-3" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/cannon-basketball-3_small_new.webp" 
+									alt="Cannon Basketball 3" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/ragdoll-hit" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/ragdoll-hit_small_new.webp" 
+									alt="Ragdoll Hit" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/subway-surfers-hongkong" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/subway-surfers-hongkong_small_new.webp" 
+									alt="Subway Surfers Hongkong" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_hidden"></div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/racing-limits" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/racing-limits-small_thumb_new.webp" 
+									alt="Racing Limits" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Trending">Trending</div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/brainrot-clicker" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/brainrot-clicker_small_new.webp" 
+									alt="Brainrot Clicker" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Trending">Trending</div>
+							</a>
+						</div></li><li class="d-flex flex-column"><div class="slide my-1">
+							<a href="https://cpsgames.org/game/ragdoll-rumble" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/ragdoll-rumble_small_new.webp" 
+									alt=" Ragdoll Rumble" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_New">New</div>
+							</a>
+						</div><div class="slide my-1">
+							<a href="https://cpsgames.org/game/gun-spin" class="mask-a">
+								<img data-src="https://cpsgames.org/thumbs/gun-spin_small_new.webp" 
+									alt="Gun Spin" 
+									class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+								<div class="maskLabel maskLabel_Hot">Hot</div>
+							</a>
+						</div></li>			</ul>
+				<div class="slider__buttons start-0 align-items-center carousel-control-prev h-100">
+					<button class="btn btn-slider-arrow p-0 me-auto slider-prev" disabled
+						aria-label="previous button"><span class="previous-btn-icon m-0 p-5"></span></button>
+				</div>
+				<div class="slider__buttons end-0 align-items-center carousel-control-next h-100">
+					<button class="btn btn-slider-arrow p-0 ms-auto slider-next" aria-label="Next Button"><span
+							class="next-btn-icon m-0 p-5"></span></button>
+				</div>
+			</div>
+		</div>
+			
+		<div class="col-12 mb-4">
+			<div class="header-wrapper">
+				<h2 class="mb-1 fw-bold f20">Popular <span class="text-success">Games</span></h2>
+				<a class="header-wrapper-link" href="https://cpsgames.org/category/popular-games">View more ›</a>
+			</div>
+			<div class="slider third position-relative">
+				<ul class="slider__track py-1 mb-0">
+					<li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/funny-shooter-2" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/funny-shooter-2_small_new.webp" 
+											alt="Funny Shooter 2" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Updated">Updated</div>
+									</a>
+								</div><div class="slide my-1">
+									<a href="https://cpsgames.org/game/bottle-flip-2" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/bottle-flip-2_small_new.webp" 
+											alt="Bottle Flip" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_hidden"></div>
+									</a>
+								</div></li><li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/gun-mayhem" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/gun-mayhem-new-small-thumb_2_new.webp" 
+											alt="Gun Mayhem" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Updated">Updated</div>
+									</a>
+								</div><div class="slide my-1">
+									<a href="https://cpsgames.org/game/build-royale" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/build-royale_small_new.webp" 
+											alt="Build Royale" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Trending">Trending</div>
+									</a>
+								</div></li><li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/slope-city" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/slope-city_small_new.webp" 
+											alt="Slope City " 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Hot">Hot</div>
+									</a>
+								</div><div class="slide my-1">
+									<a href="https://cpsgames.org/game/tunnel-rush-2" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/tunnel-rush-2_small_new.webp" 
+											alt="Tunnel Rush 2" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Hot">Hot</div>
+									</a>
+								</div></li><li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/smash-karts" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/smash-karts_small_new.webp" 
+											alt="Smash Karts" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Trending">Trending</div>
+									</a>
+								</div><div class="slide my-1">
+									<a href="https://cpsgames.org/game/tag" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/tag_small_new.webp" 
+											alt="Tag" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Updated">Updated</div>
+									</a>
+								</div></li><li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/basket-bros" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/basket-bros_small_new.webp" 
+											alt="BasketBros" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Updated">Updated</div>
+									</a>
+								</div><div class="slide my-1">
+									<a href="https://cpsgames.org/game/eggy-car" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/eggy-car_small_new.webp" 
+											alt="Eggy Car" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Trending">Trending</div>
+									</a>
+								</div></li><li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/rolly-vortex" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/rolly-vortex_small_new.webp" 
+											alt="Rolly Vortex" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Hot">Hot</div>
+									</a>
+								</div><div class="slide my-1">
+									<a href="https://cpsgames.org/game/shell-shockers" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/shell-shockers_small_new.webp" 
+											alt="Shell Shockers" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Hot">Hot</div>
+									</a>
+								</div></li><li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/run-3" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/run-3_small_new.webp" 
+											alt="Run 3" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_hidden"></div>
+									</a>
+								</div><div class="slide my-1">
+									<a href="https://cpsgames.org/game/google-snake" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/google-snake_small_new.webp" 
+											alt="Google Snake" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Trending">Trending</div>
+									</a>
+								</div></li><li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/fireboy-and-watergirl-6" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/fireboy-and-watergirl-6_small_new.webp" 
+											alt="Fireboy and Watergirl 6" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Updated">Updated</div>
+									</a>
+								</div><div class="slide my-1">
+									<a href="https://cpsgames.org/game/penalty-shootout-multi-league" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/penalty-shootout-multi-league_small_new.webp" 
+											alt="Penalty Shootout Multi League" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_hidden"></div>
+									</a>
+								</div></li><li class="d-flex flex-column"><div class="slide my-1">
+									<a href="https://cpsgames.org/game/google-doodle-baseball" class="mask-a">
+										<img data-src="https://cpsgames.org/thumbs/google-doodle-baseball_small_new.webp" 
+											alt="Google Doodle Baseball" 
+											class="lazyload img-fluid small-thumb thumbnail-img m-1 rounded-2" width="122" height="122">
+										<div class="maskLabel maskLabel_Hot">Hot</div>
+									</a>
+								</div>				</ul>
+				<div class="slider__buttons start-0 align-items-center carousel-control-prev h-100">
+					<button class="btn btn-slider-arrow p-0 me-auto slider-prev" disabled
+						aria-label="previous button"><span class="previous-btn-icon m-0 p-5"></span></button>
+				</div>
+				<div class="slider__buttons end-0 align-items-center carousel-control-next h-100">
+					<button class="btn btn-slider-arrow p-0 ms-auto slider-next" aria-label="Next Button"><span
+							class="next-btn-icon m-0 p-5"></span></button>
+				</div>
+			</div>
+		</div>
+		
+			<footer>
+		<div class="col-12 bg-black p-4 rounded-top d-sm-flex justify-content-between align-items-center">
+            <div class="col-12 col-sm-5 col-xl-8 mb-2">
+                <a class="navbar-brand" href="https://cpsgames.org/"><img src="https://cpsgames.org/images/logo.webp" width="191" height="55"
+                        alt="CPS Games Logo">
+                </a>
+            </div>
+            <div class="col-12 col-sm-3 col-xl-2 mb-2">
+                <a href="https://chromewebstore.google.com/detail/cpsgames-play-online-game/khhmfpllfjnanmbbahchefbnnomeealb" target="_blank"><img src="https://cpsgames.org/images/chrome-button.svg" class="img-fluid" width="178" height="40" alt="chrome extension" class="me-2"></a>
+            </div>
+            <div class="col-12 col-sm-4 col-xl-2 mb-2">
+                <div class="d-flex">
+                <a href="https://www.facebook.com/profile.php?id=61559120540800" target="_blank"><img src="https://cpsgames.org/images/fb.svg" width="36" height="36" alt="Facebook"
+						class="me-2 ms-2"></a>
+				<a href="https://twitter.com/CPSGamesOrg" target="_blank"><img src="https://cpsgames.org/images/x.svg" width="36" height="36" alt="Twitter" class="me-2"></a>
+				<a href="#"><img src="https://cpsgames.org/images/insta.svg" width="36" height="36" alt="insta"
+						class="me-2"></a>
+				<a href="https://www.youtube.com/@CPSGamesOrg" target="_blank"><img src="https://cpsgames.org/images/yt.svg" width="36" height="36" alt="Youtube"></a>
+                </div>
+            </div>
+		</div>
+	</footer>
+	
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+	<script src="https://cpsgames.org/content/themes/cpsgames/js/jquery.mCustomScrollbar.concat.min.js" defer></script>
+	<script src="https://cpsgames.org/content/themes/cpsgames/js/lazysizes.min.js" async></script>
+    <script src="https://cpsgames.org/js/comment-system.js" defer></script>
+	<script src="https://cpsgames.org/js/stats.js?v=1" defer></script>
+    <script>
+        const formSearch = document.querySelector("form.search-bar");
+        if (formSearch) {
+            formSearch.addEventListener("submit", function (event) {
+                event.preventDefault();
+                const input = formSearch.querySelector("input[name='slug']");
+                const sanitizedValue = input.value.replace(/ /g, "-");
+                input.value = sanitizedValue;
+                if (input.value.length >= 2) {
+                    formSearch.submit();
+                }
+            });
+        }
+
+        const formMobSearch = document.querySelector("form.mob-search-bar");
+        if (formMobSearch) {
+            formMobSearch.addEventListener("submit", function (event) {
+                event.preventDefault();
+                const input = formMobSearch.querySelector("input[name='slug']");
+                const sanitizedValue = input.value.replace(/ /g, "-");
+                input.value = sanitizedValue;
+                if (input.value.length >= 2) {
+                    formMobSearch.submit();
+                }
+            });
+        }
+
+        function drag_back_btn(elem) {
+            let is_drag = false;
+            let pos_1 = 0, pos_2 = 0;
+            let last_y = elem.style.top;
+            let touchstart_y = 0;
+            elem.addEventListener("touchend", function (e) {
+                if (is_drag) {
+                    is_drag = false;
+                }
+            }, false);
+            elem.addEventListener("touchmove", function (e) {
+                e.preventDefault();
+                let touch = e.changedTouches[0];
+                if (!is_drag) {
+                    if (touchstart_y < touch.clientY + 5 || touchstart_y > touch.clientY - 5) {
+                        pos_2 = e.clientY;
+                        is_drag = true;
+                    }
+                }
+                if (is_drag) {
+                    pos_1 = pos_2 - touch.clientY;
+                    pos_2 = touch.clientY;
+                    elem.style.top = (pos_2) + "px";
+                }
+            }, false);
+            elem.addEventListener("touchstart", function (e) {
+                let touch = e.changedTouches[0];
+                last_y = elem.style.top;
+                touchstart_y = touch.clientY;
+            }, false);
+            elem.addEventListener("click", function (e) {
+                e.preventDefault();
+                if (last_y == elem.style.top) {
+                    open_fullscreen();
+                }
+            }, false);
+        }
+
+        window.addEventListener('load', function() {
+            "use strict";
+            if ($('#tpl-comment-section').length) {
+                const gameId = $('#tpl-comment-section').attr('data-id');
+                const commentSystem = new CommentSystem(gameId);
+            }
+            
+            if ($('iframe#game-area').length) {
+                load_leaderboard({ type: 'top', amount: 10 });
+                drag_back_btn(document.getElementById("mobile-back-button"));
+            }
+            
+
+            function load_leaderboard(conf) {
+                if ($('#content-leaderboard').length) {
+                    let g_id = $('#content-leaderboard').data('id');
+                    $.ajax({
+                        url: '/includes/api.php',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { 'action': 'get_scoreboard', 'game-id': g_id, 'conf': JSON.stringify(conf) },
+                        complete: function (data) {
+                            if (data.responseText) {
+                                if (JSON.parse(data.responseText).length) {
+                                    show_leaderboard(JSON.parse(data.responseText));
+                                }
+                            }
+                        }
+                    });
+                }
+            }
+            function show_leaderboard(data) {
+                let html = '<table class="scoreboard table"><thead class=""><tr><th scope="col">#</th><th scope="col">Username</th><th scope="col">Score</th><th scope="col">Date</th></tr></thead><tbody>';
+                let index = 1;
+                data.forEach((item) => {
+                    html += '<tr><th scope="row">' + index + '</th><td>' + item.username + '</td><td>' + item.score + '</td><td>' + item.created_date.substr(0, 10) + '</td></tr>';
+                    index++;
+                });
+                html += '</tbody></table>';
+                $('#content-leaderboard').html(html);
+            }
+
+            (function () {
+                $(".burger-left").click(function () {
+                    $(".left-categories").toggleClass("show");
+                });
+
+                $(".burger-right").click(function () {
+                    $(".sidebar-right").toggleClass("show");
+                });
+
+                if (window.innerWidth < 1025) {
+                    $('.has-dropdown').click(function (d) {
+                        d.preventDefault();
+                        $(this).children(".drop-ct").toggle();
+                    });
+                }
+            
+                var $el = $(".user-avatar");
+                var $ee = $(".user-dropdown");
+                $el.click(function (e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    $(".user-dropdown").toggleClass('show');
+                });
+                $(document).on('click', function (e) {
+                    if (($(e.target) != $el) && ($ee.hasClass('show'))) {
+                        $ee.removeClass('show');
+                    }
+                });
+                let last_offset = $("#listing1").children().length;
+                let load_amount = 12;
+                $('#load-more1').click((e) => {
+                    e.preventDefault();
+                    $(this).addClass('disabled');
+                    fetch_games(load_amount, 'new');
+                });
+                function fetch_games(amount, sort_by) {
+                    $.ajax({
+                        url: "/includes/fetch.php",
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { amount: amount, offset: last_offset, sort_by: sort_by },
+                        complete: function (data) {
+                            append_content(JSON.parse(data.responseText));
+                        }
+                    });
+                }
+                function append_content(data) {
+                    last_offset += data.length;
+                    data.forEach((game) => {
+                        let rating = 0;
+                        game['upvote'] = Number(game['upvote']);
+                        game['downvote'] = Number(game['downvote']);
+                        let total_revs = game['upvote'] + game['downvote'];
+                        if (total_revs > 0) {
+                            rating = (Math.round((game['upvote'] / (game['upvote'] + game['downvote'])) * 5));
+                        }
+                        let html = '<div class="col-xl-2 col-lg-3 col-md-4 col-6 grid-1 p-0">';
+                        html += '<a href="/game/' + game['slug'] + '/">';
+                        html += '<div class="game-item">';
+                        html += '<div class="list-game">';
+                        html += '<div class="list-thumbnail">';
+                        html += '<img src="/content/themes/arcade-one/images/thumb-placeholder1.png" data-src="' + game['thumb_2'] + '" class="small-thumb lazyload" alt="' + game['title'] + '">';
+                        html += '</div></div></div></a></div>';
+                        $("#listing1").append(html);
+                        $("#listing1 .column:hidden").slice(0, load_amount).slideDown();
+                    });
+                    if (data.length < load_amount) {
+                        $("#load-more1").text("No More Games").addClass("noContent disabled");
+                    } else {
+                        $("#load-more1").removeClass('disabled');
+                    }
+                }
+                $("#navb").on('show.bs.collapse', function () {
+                    $('.user-avatar').hide();
+                });
+                $("#navb").on('hidden.bs.collapse', function () {
+                    $('.user-avatar').show();
+                });
+                $('#mobile-play-btn').on('click', function (e) {
+                    open_fullscreen();
+                });
+                $('.b-action #favorite').on('click', function (e) {
+                    e.preventDefault();
+                    let data_id = $('.game-content').attr('data-id');
+                    let btn = $(this);
+                    $.ajax({
+                        url: '/includes/vote.php',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { 'favorite': true, 'action': 'favorite', 'id': data_id },
+                        complete: function (data) {
+                            btn.addClass('active');
+                            btn.addClass('disabled');
+                        }
+                    });
+                });
+                $('.b-action #upvote').on('click', function (e) {
+                    e.preventDefault();
+                    let data_id = $('.game-content').attr('data-id');
+                    let btn = $(this);
+                    $.ajax({
+                        url: '/includes/vote.php',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { 'vote': true, 'action': 'upvote', 'id': data_id },
+                        complete: function (data) {
+                            btn.addClass('active');
+                            btn.addClass('disabled');
+                        }
+                    });
+                });
+                $('.b-action #downvote').on('click', function (e) {
+                    e.preventDefault();
+                    let data_id = $('.game-content').attr('data-id');
+                    let btn = $(this);
+                    $.ajax({
+                        url: '/includes/vote.php',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { 'vote': true, 'action': 'downvote', 'id': data_id },
+                        complete: function (data) {
+                            btn.addClass('active');
+                            btn.addClass('disabled');
+                        }
+                    });
+                });
+                $('.user-avatar').on('click', () => {
+                    let element = $('.user-links');
+                    if (element.is(":hidden")) {
+                        element.removeClass('hidden');
+                    } else element.addClass('hidden');
+                });
+                $('#btn_prev').on('click', function () {
+                    $('.liked-gamelist ul').animate({
+                        scrollLeft: '-=150'
+                    }, 300, 'swing');
+                });
+
+                $('#btn_next').on('click', function () {
+                    $('.liked-gamelist ul').animate({
+                        scrollLeft: '+=150'
+                    }, 300, 'swing');
+                });
+                $('#f_prev').on('click', function () {
+                    $('.favorite-gamelist ul').animate({
+                        scrollLeft: '-=150'
+                    }, 300, 'swing');
+                });
+
+                $('#f_next').on('click', function () {
+                    $('.favorite-gamelist ul').animate({
+                        scrollLeft: '+=150'
+                    }, 300, 'swing');
+                });
+                $('#t-prev').on('click', function () {
+                    $('.list-1-wrapper').animate({
+                        scrollLeft: '-=150'
+                    }, 300, 'swing');
+                });
+
+                $('#t-next').on('click', function () {
+                    $('.list-1-wrapper').animate({
+                        scrollLeft: '+=150'
+                    }, 300, 'swing');
+                });
+                $('.delete-comment').on('click', function () {
+                    let id = $(this).attr('data-id');
+                    $.ajax({
+                        url: '/includes/comment.php',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { 'delete': true, 'id': id },
+                        complete: function (data) {
+                            if (data.responseText === 'deleted') {
+                                $('.id-' + id).remove();
+                            }
+                        }
+                    }, this);
+                });
+                let game_id;
+                if ($('#comments').length) {
+                    game_id = $('.game-content').attr('data-id');
+                    $.ajax({
+                        url: '/includes/comment.php',
+                        type: 'POST',
+                        dataType: 'json',
+                        data: { 'load': true, 'game_id': game_id },
+                        complete: function (data) {
+                            let comments = JSON.parse(data.responseText);
+                            load_comments(convert_comments(comments));
+                        }
+                    });
+                }
+                function convert_comments(array) {
+                    let data = [];
+                    array.forEach((item) => {
+                        let arr = {
+                            id: Number(item.id),
+                            created: item.created_date,
+                            content: item.comment,
+                            fullname: item.sender_username,
+                            profile_picture_url: item.avatar,
+                        };
+                        if (Number(item.parent_id)) {
+                            arr.parent = Number(item.parent_id);
+                        }
+                        if (!arr.fullname) {
+                            arr.fullname = 'Anonymous';
+                        }
+                        data.push(arr);
+                    });
+                    return data;
+                }
+                function load_comments(array) {
+                    let read_only = false;
+                    let avatar = $('.user-avatar img').attr('src');
+                    if (!avatar) {
+                        avatar = '/images/default_profile.png';
+                        read_only = true;
+                    }
+                    $('#comments').comments({
+                        enableUpvoting: false,
+                        roundProfilePictures: true,
+                        popularText: '',
+                        profilePictureURL: avatar,
+                        readOnly: read_only,
+                        enableNavigation: false,
+                        enableEditing: false,
+                        getComments: function (success, error) {
+                            success(array);
+                        },
+                        postComment: function (commentJSON, success, error) {
+                            commentJSON.source = 'jquery-comments';
+                            commentJSON.send = true;
+                            commentJSON.game_id = game_id;
+                            $.ajax({
+                                type: 'post',
+                                url: '/includes/comment.php',
+                                data: commentJSON,
+                                success: function (comment) {
+                                    console.log(comment);
+                                    success(commentJSON)
+                                },
+                                error: error
+                            });
+                        }
+                    });
+                }
+            })();
+
+            document.addEventListener("DOMContentLoaded", function () {
+                document.querySelectorAll('.dropdown-submenu > a').forEach(function (element) {
+                    element.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        let submenu = this.nextElementSibling;
+                        submenu.classList.toggle('show');
+                    });
+                });
+                document.querySelectorAll('.dropdown').forEach(function (dropdown) {
+                    dropdown.addEventListener('hide.bs.dropdown', function () {
+                        this.querySelectorAll('.submenu').forEach(function (submenu) {
+                            submenu.classList.remove('show');
+                        });
+                    });
+                });
+                document.querySelectorAll('.dropdown-menu').forEach(function (element) {
+                    element.addEventListener('click', function (e) {
+                        e.stopPropagation();
+                    });
+                });
+            });
+
+            if ($('#tpl-comment-section').length) {
+                const gameId = $('#tpl-comment-section').attr('data-id');
+                const commentSystem = new CommentSystem(gameId);
+            }
+            $(function () {
+                const formSearch = document.querySelector("form.search-bar");
+                if (formSearch) {
+                    formSearch.addEventListener("submit", function (event) {
+                        event.preventDefault();
+                        const input = formSearch.querySelector("input[name='slug']");
+                        const sanitizedValue = input.value.replace(/ /g, "-");
+                        input.value = sanitizedValue;
+                        if (input.value.length >= 2) {
+                            formSearch.submit();
+                        }
+                    });
+                }
+                let last_offset = 0;
+                let load_amount = 0;
+                const newGamesContainer = $('#section-new-games');
+                if (newGamesContainer.length) {
+                    load_amount = newGamesContainer.children().length;
+                    last_offset = newGamesContainer.children().length;
+                    if (load_amount < 12) {
+                        $('.btn-load-more-games').remove();
+                    } else {
+                        $('.btn-load-more-games').click(() => {
+                            fetchMoreGames(load_amount, 'new');
+                        });
+                    }
+                }
+
+                async function fetchMoreGames(amount, sort_by) {
+                    try {
+                        const response = await $.ajax({
+                            url: "/includes/fetch.php",
+                            type: 'POST',
+                            dataType: 'json',
+                            data: { amount: amount, offset: last_offset, sort_by: sort_by },
+                        });
+                        appendFetchedGames(response);
+                    } catch (error) {
+                        console.log(error);
+                    }
+                }
+
+                function appendFetchedGames(data) {
+                    last_offset += data.length;
+                    const templateHTML = $('.item-append-template').html();
+                    data.forEach((item) => {
+                        let rating = 0;
+                        item['upvote'] = Number(item['upvote']);
+                        item['downvote'] = Number(item['downvote']);
+                        let totalRevs = item['upvote'] + item['downvote'];
+                        if (totalRevs > 0) {
+                            rating = (Math.round((item['upvote'] / (item['upvote'] + item['downvote'])) * 5));
+                        }
+                        let clonedHTML = templateHTML;
+                        clonedHTML = clonedHTML.replace(/{{slug}}/g, item['slug']);
+                        clonedHTML = clonedHTML.replace(/{{thumbnail}}/g, item['thumb_2']);
+                        clonedHTML = clonedHTML.replace(/{{title}}/g, item['title']);
+                        clonedHTML = clonedHTML.replace(/{{rating}}/g, rating);
+                        const clonedElement = $(clonedHTML);
+                        newGamesContainer.append(clonedElement);
+                    });
+                    if (data.length < load_amount) {
+                        $('.btn-load-more-games').remove();
+                    }
+                }
+                var $nav = $('nav.greedy');
+                var $btn = $('nav.greedy button');
+                var $vlinks = $('nav.greedy .links');
+                var $hlinks = $('nav.greedy .hidden-links');
+
+                var numOfItems = 0;
+                var totalSpace = 0;
+                var breakWidths = [];
+
+                $vlinks.children().outerWidth(function (i, w) {
+                    totalSpace += w;
+                    numOfItems += 1;
+                    breakWidths.push(totalSpace);
+                });
+
+                var availableSpace, numOfVisibleItems, requiredSpace;
+
+                function check() {
+                    availableSpace = $vlinks.width() - 10;
+                    numOfVisibleItems = $vlinks.children().length;
+                    requiredSpace = breakWidths[numOfVisibleItems - 1];
+                    if (requiredSpace > availableSpace) {
+                        $vlinks.children().last().prependTo($hlinks);
+                        numOfVisibleItems -= 1;
+                        check();
+                    } else if (availableSpace > breakWidths[numOfVisibleItems]) {
+                        $hlinks.children().first().appendTo($vlinks);
+                        numOfVisibleItems += 1;
+                    }
+                    $btn.attr("count", numOfItems - numOfVisibleItems);
+                    if (numOfVisibleItems === numOfItems) {
+                        $btn.addClass('hidden');
+                    } else $btn.removeClass('hidden');
+                }
+                $(window).resize(function () {
+                    check();
+                });
+
+                $btn.on('click', function () {
+                    $hlinks.toggleClass('hidden');
+                });
+                check();
+            });
+        }); 
+    
+        document.querySelectorAll(".slider").forEach(slider => {
+            const track = slider.querySelector(".slider__track");
+            const prev = slider.querySelector(".slider-prev");
+            const next = slider.querySelector(".slider-next");
+            if (track) {
+                prev.addEventListener("click", () => {
+                    next.removeAttribute("disabled");
+                    track.scrollTo({
+                        left: track.scrollLeft - track.firstElementChild.offsetWidth,
+                        behavior: "smooth"
+                    });
+                });
+                next.addEventListener("click", () => {
+                    prev.removeAttribute("disabled");
+                    track.scrollTo({
+                        left: track.scrollLeft + track.firstElementChild.offsetWidth,
+                        behavior: "smooth"
+                    });
+                });
+
+                track.addEventListener("scroll", () => {
+                    const trackScrollWidth = track.scrollWidth;
+                    const trackOuterWidth = track.clientWidth;
+
+                    prev.removeAttribute("disabled");
+                    next.removeAttribute("disabled");
+                
+                    if (track.scrollLeft <= 0) {
+                        prev.setAttribute("disabled", "");
+                    }
+                    let scrollPos = Math.ceil(track.scrollLeft);
+                    if (scrollPos >= trackScrollWidth - trackOuterWidth) {
+                        next.setAttribute("disabled", "");
+                    }
+                });
+            }
+        });
+        (function () {
+        var GTM_ID = "G-RQT0VHNEWQ";
+        var loaded = false;
+        function loadGTM() {
+            if (loaded) return;
+            loaded = true;
+
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+
+            var s = document.createElement('script');
+            s.async = true;
+            s.src = 'https://www.googletagmanager.com/gtm.js?id=' + GTM_ID;
+            document.head.appendChild(s);
+
+            gtag('js', new Date());
+            gtag('config', 'G-RQT0VHNEWQ');
+        }
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);} 
+        ['scroll','mousemove','touchstart','keydown'].forEach(function(evt){
+            window.addEventListener(evt, loadGTM, { once:true, passive:true });
+        });
+        })();
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+    
+    
+        	<div id="cookieConsentBanner" role="dialog" aria-live="polite" aria-label="cookies Banner">
+		<div class="cookie-consent-msg">
+			This website uses cookies to ensure you get the best experience on our website.
+		</div>
+		<div class="cookie-consent-actions">
+			<button class="btn btn-primary btn-cookie-accept" id="acceptCookies">Accept</button>
+			<button class="btn btn-secondary btn-cookie-decline" id="declineCookies">Decline</button>
+		</div>
+	</div>
+		<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", function () {
+
+		function setCookie(name, value, days) {
+			let expires = "";
+			if (days) {
+			const date = new Date();
+			date.setTime(date.getTime() + (days * 86400000));
+			expires = "; expires=" + date.toUTCString();
+			}
+			document.cookie = name + "=" + value + expires + "; path=/; SameSite=Lax";
+		}
+
+		function getCookie(name) {
+			const match = document.cookie.match(new RegExp('(^| )' + name + '=([^;]+)'));
+			return match ? match[2] : null;
+		}
+
+		const banner = document.getElementById("cookieConsentBanner");
+		const acceptBtn = document.getElementById("acceptCookies");
+		const declineBtn = document.getElementById("declineCookies");
+
+		if (!banner) return;
+
+		const consent = getCookie("cookieConsent");
+
+		if (!consent) {
+			window.addEventListener("load", function () {
+			setTimeout(function () {
+				document.documentElement.classList.add("show-cookie-banner");
+			}, 1500);
+			});
+		}
+
+		if (acceptBtn) {
+			acceptBtn.addEventListener("click", function () {
+			setCookie("cookieConsent", "true", 365);
+			document.documentElement.classList.remove("show-cookie-banner");
+			});
+		}
+		if (declineBtn) {
+			declineBtn.addEventListener("click", function () {
+			setCookie("cookieConsent", "false", 365);
+			document.documentElement.classList.remove("show-cookie-banner");
+			});
+		}
+	});
+	</script>
+		</body>
+</html>	</div>
+</div>
+

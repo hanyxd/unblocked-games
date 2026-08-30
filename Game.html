@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Playing | Unblocked Games</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+	<div class="blob blob-1"></div>
+	<div class="blob blob-2"></div>
+
+	<nav class="navbar">
+		<div class="nav-logo">
+			<i class="fa-solid fa-gamepad"></i>
+			<a href="Index.html">Unblocked<span>Games</span></a>
+		</div>
+		<ul class="nav-links">
+			<li><a href="Index.html">Home</a></li>
+			<li><a href="GamePage.html" class="active">Games</a></li>
+			<li><a href="Settings.html">Settings</a></li>
+			<li><a href="Contact.html">Contact</a></li>
+		</ul>
+		<div class="nav-actions">
+			<button class="btn btn-secondary" onclick="window.location.href='https://classroom.google.com'"
+				title="Panic Button (Esc)">
+				<i class="fa-solid fa-graduation-cap"></i>
+			</button>
+			<button class="nav-toggle" aria-label="Toggle menu">
+				<i class="fa-solid fa-bars"></i>
+			</button>
+		</div>
+	</nav>
+
+	<main class="container">
+		<div class="game-header">
+			<a href="GamePage.html" class="btn btn-secondary">
+				<i class="fa-solid fa-arrow-left"></i> Back to Games
+			</a>
+			<h2 id="gameTitle" style="margin: 0;">Loading Game...</h2>
+			<div style="width: 140px;"></div>
+		</div>
+
+		<div class="glass-card" style="padding: 1rem;">
+			<div class="game-container" id="gameContainer">
+				<iframe id="gameFrame" class="game-iframe" src="about:blank" allowfullscreen="true"
+					scrolling="no"></iframe>
+				<button class="fullscreen-btn" onclick="toggleFullscreen()">
+					<i class="fa-solid fa-expand"></i>
+				</button>
+			</div>
+		</div>
+	</main>
+
+	<script src="javascript.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const gameId = sessionStorage.getItem('selectedGame');
+			const gameFrame = document.getElementById('gameFrame');
+			const gameTitle = document.getElementById('gameTitle');
+
+			const gameData = {
+			};
+
+			if (gameId && gameData[gameId]) {
+				gameTitle.innerText = gameData[gameId].title;
+				gameFrame.src = gameData[gameId].url;
+			} else {
+				gameTitle.innerText = 'Game Not Found';
+				gameFrame.src = 'about:blank';
+			}
+		});
+
+		function toggleFullscreen() {
+			const container = document.getElementById('gameContainer');
+			const icon = document.querySelector('.fullscreen-btn i');
+
+			if (!document.fullscreenElement) {
+				if (container.requestFullscreen) {
+					container.requestFullscreen();
+				} else if (container.mozRequestFullScreen) {
+					container.mozRequestFullScreen();
+				} else if (container.webkitRequestFullscreen) {
+					container.webkitRequestFullscreen();
+				} else if (container.msRequestFullscreen) {
+					container.msRequestFullscreen();
+				}
+				container.classList.add('fullscreen');
+				icon.classList.remove('fa-expand');
+				icon.classList.add('fa-compress');
+			} else {
+				if (document.exitFullscreen) {
+					document.exitFullscreen();
+				} else if (document.mozCancelFullScreen) {
+					document.mozCancelFullScreen();
+				} else if (document.webkitExitFullscreen) {
+					document.webkitExitFullscreen();
+				} else if (document.msExitFullscreen) {
+					document.msExitFullscreen();
+				}
+				container.classList.remove('fullscreen');
+				icon.classList.remove('fa-compress');
+				icon.classList.add('fa-expand');
+			}
+		}
+
+		document.addEventListener('fullscreenchange', exitHandler);
+		function exitHandler() {
+			if (!document.fullscreenElement) {
+				document.getElementById('gameContainer').classList.remove('fullscreen');
+				const icon = document.querySelector('.fullscreen-btn i');
+				icon.classList.remove('fa-compress');
+				icon.classList.add('fa-expand');
+			}
+		}
+	</script>
+</body>
+
+</html>

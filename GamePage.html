@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Games Library | Unblocked Games</title>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="custom-cursor"></div>
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+<nav class="navbar">
+<div class="nav-logo">
+<i class="fa-solid fa-gamepad"></i>
+<a href="Index.html">Unblocked<span>Games</span></a>
+</div>
+<ul class="nav-links">
+<li><a href="Index.html">Home</a></li>
+<li><a class="active" href="GamePage.html">Games</a></li>
+<li><a href="Settings.html">Settings</a></li>
+<li><a href="Contact.html">Contact</a></li>
+</ul>
+<div class="nav-actions">
+<button class="btn btn-secondary" onclick="window.location.href='https://classroom.google.com'" title="Panic Button (Esc)">
+<i class="fa-solid fa-graduation-cap"></i>
+</button>
+<button class="nav-toggle" aria-label="Toggle menu">
+<i class="fa-solid fa-bars"></i>
+</button>
+</div>
+</nav>
+<main class="container">
+<div class="page-header scroll-animate">
+<h1 class="text-center">Games Library</h1>
+<p>Browse, search, and filter the full collection.</p>
+</div>
+
+<div class="games-toolbar scroll-animate delay-1">
+<div class="search-bar">
+<i class="fa-solid fa-magnifying-glass"></i>
+<input class="input-control" id="gameSearch" oninput="filterGames()" placeholder="Search for a game..." type="text"/>
+</div>
+<span class="results-count">Showing <b id="resultsCount">0</b> games</span>
+</div>
+
+<div class="filter-chips scroll-animate delay-1" id="filterChips"></div>
+
+<div class="games-grid" id="gamesGrid">
+<div class="glass-card game-card" data-title="1v1 LOL">
+<img alt="1v1 LOL logo" class="game-icon" src="images/logos/1v1_lol.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">1v1 LOL</div>
+<div class="game-category">Shooter</div>
+<a class="btn btn-primary" href="games/1v1lol.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="8 Ball Pool">
+<img alt="8 Ball Pool logo" class="game-icon" src="images/logos/8_ball_pool.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">8 Ball Pool</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/8ball.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="A Small World Cup">
+<img alt="A Small World Cup logo" class="game-icon" src="images/logos/a_small_world_cup.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">A Small World Cup</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/asmallworldcup/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Balatro">
+<img alt="Balatro logo" class="game-icon" src="images/logos/balatro.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Balatro</div>
+<div class="game-category">Card</div>
+<a class="btn btn-primary" href="games/balatro/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Basket Stars">
+<img alt="Basket Stars logo" class="game-icon" src="images/logos/basket_stars.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Basket Stars</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/basket-stars/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Bike Obby">
+<img alt="Bike Obby logo" class="game-icon" src="images/logos/bike_obby.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Bike Obby</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/bikeobby/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Binding of Isaac">
+<img alt="Binding of Isaac logo" class="game-icon" src="images/logos/binding_of_isaac.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Binding of Isaac</div>
+<div class="game-category">Roguelike</div>
+<a class="btn btn-primary" href="games/binding-of-issac.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="BitLife">
+<img alt="BitLife logo" class="game-icon" src="images/logos/bitlife.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">BitLife</div>
+<div class="game-category">Simulation</div>
+<a class="btn btn-primary" href="games/bitlife/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Block Blast">
+<img alt="Block Blast logo" class="game-icon" src="images/logos/block_blast.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Block Blast</div>
+<div class="game-category">Puzzle</div>
+<a class="btn btn-primary" href="games/block-blast.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Btd">
+<img alt="Btd logo" class="game-icon" src="images/logos/btd.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Btd</div>
+<div class="game-category">Game</div>
+<a class="btn btn-primary" href="games/btd/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Buckshot Roulette">
+<img alt="Buckshot Roulette logo" class="game-icon" src="images/logos/buckshot_roulette.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Buckshot Roulette</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/buckshot-roulette/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Burrito Bison">
+<img alt="Burrito Bison logo" class="game-icon" src="images/logos/burrito_bison.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Burrito Bison</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/burritobison/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Car Chase 3D">
+<img alt="Car Chase 3D logo" class="game-icon" src="images/logos/car_chase_3d.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Car Chase 3D</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/cc3d.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Clash Royale">
+<img alt="Clash Royale logo" class="game-icon" src="images/logos/clash_royale.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Clash Royale</div>
+<div class="game-category">Strategy</div>
+<a class="btn btn-primary" href="games/clash-royal.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Cluster Rush">
+<img alt="Cluster Rush logo" class="game-icon" src="images/logos/cluster_rush.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Cluster Rush</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/cluster-rush/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Code Editor">
+<img alt="Code Editor logo" class="game-icon" src="images/logos/code_editor.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Code Editor</div>
+<div class="game-category">Utility</div>
+<a class="btn btn-primary" href="games/code-editor.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="College Football 25">
+<img alt="College Football 25 logo" class="game-icon" src="images/logos/college_football_25.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">College Football 25</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/cgfc25.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Cookie Clicker">
+<img alt="Cookie Clicker logo" class="game-icon" src="images/logos/cookie_clicker.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Cookie Clicker</div>
+<div class="game-category">Idle</div>
+<a class="btn btn-primary" href="games/cookie-clicker.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Coreball">
+<img alt="Coreball logo" class="game-icon" src="images/logos/coreball.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Coreball</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/coreball.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Crossy Road">
+<img alt="Crossy Road logo" class="game-icon" src="images/logos/crossy_road.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Crossy Road</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/crossy-road.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Cuphead">
+<img alt="Cuphead logo" class="game-icon" src="images/logos/cuphead.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Cuphead</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/cuphead/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Deadish">
+<img alt="Deadish logo" class="game-icon" src="images/logos/deadish.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Deadish</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/deadish/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Deadly Descent">
+<div class="game-icon" style="background: linear-gradient(135deg, #1e1b4b, #6366f1);">
+<i class="fa-solid fa-person-falling" style="color: white;"></i>
+</div>
+<div class="game-title">Deadly Descent</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/deadlydescent/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Death Run 3D">
+<img alt="Death Run 3D logo" class="game-icon" src="images/logos/death_run_3d.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Death Run 3D</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/death-run-3d/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Doblox">
+<img alt="Doblox logo" class="game-icon" src="images/logos/doblox.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Doblox</div>
+<div class="game-category">Sandbox</div>
+<a class="btn btn-primary" href="games/doblox.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Doom">
+<img alt="Doom logo" class="game-icon" src="images/logos/doom.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Doom</div>
+<div class="game-category">Shooter</div>
+<a class="btn btn-primary" href="games/doom/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Drift Boss">
+<img alt="Drift Boss logo" class="game-icon" src="images/logos/drift_boss.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Drift Boss</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/drift-boss/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Drive Mad">
+<img alt="Drive Mad logo" class="game-icon" src="images/logos/drive_mad.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Drive Mad</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/drive-mad/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="EAG 112">
+<img alt="EAG 112 logo" class="game-icon" src="images/logos/eag_112.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">EAG 112</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/eag112.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Eggy Car">
+<img alt="Eggy Car logo" class="game-icon" src="images/logos/eggy_car.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Eggy Car</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/eggy-car/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Emulator JS">
+<img alt="Emulator JS logo" class="game-icon" src="images/logos/emulator_js.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Emulator JS</div>
+<div class="game-category">Emulator</div>
+<a class="btn btn-primary" href="games/emulatorjs.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Escape Road">
+<img alt="Escape Road logo" class="game-icon" src="images/logos/escape_road.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Escape Road</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/escaperoad/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Fnaf">
+<img alt="Fnaf logo" class="game-icon" src="images/logos/fnaf.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Fnaf</div>
+<div class="game-category">Game</div>
+<a class="btn btn-primary" href="games/FNAF/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Football Bros">
+<img alt="Football Bros logo" class="game-icon" src="images/logos/football_bros.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Football Bros</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/football-bros/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Free Rider">
+<img alt="Free Rider logo" class="game-icon" src="images/logos/free_rider.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Free Rider</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/freerider/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Geometry Dash">
+<img alt="Geometry Dash logo" class="game-icon" src="images/logos/geometry_dash.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Geometry Dash</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/geometrydash/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Getaway Shootout">
+<img alt="Getaway Shootout logo" class="game-icon" src="images/logos/getaway_shootout.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Getaway Shootout</div>
+<div class="game-category">Shooter</div>
+<a class="btn btn-primary" href="games/getaway-shootout/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Gladdi Hoppers">
+<img alt="Gladdi Hoppers logo" class="game-icon" src="images/logos/gladdi_hoppers.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Gladdi Hoppers</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/gladdihoppers.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Google Baseball">
+<img alt="Google Baseball logo" class="game-icon" src="images/logos/google_baseball.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Google Baseball</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/googlebaseball/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Gorilla Tag">
+<img alt="Gorilla Tag logo" class="game-icon" src="images/logos/gorilla_tag.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Gorilla Tag</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/gorilla-tag/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Granny">
+<img alt="Granny logo" class="game-icon" src="images/logos/granny.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Granny</div>
+<div class="game-category">Horror</div>
+<a class="btn btn-primary" href="games/granny/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Gun Spin">
+<img alt="Gun Spin logo" class="game-icon" src="images/logos/gun_spin.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Gun Spin</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/gun-spin/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Happy Wheels">
+<img alt="Happy Wheels logo" class="game-icon" src="images/logos/happy_wheels.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Happy Wheels</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/happyweels/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Harvest Simulator">
+<img alt="Harvest Simulator logo" class="game-icon" src="images/logos/harvest_simulator.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Harvest Simulator</div>
+<div class="game-category">Simulation</div>
+<a class="btn btn-primary" href="games/harvestsimulator/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="HCRL">
+<img alt="HCRL logo" class="game-icon" src="images/logos/hcrl.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">HCRL</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/hcrl.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Hollow Knight">
+<img alt="Hollow Knight logo" class="game-icon" src="images/logos/hollow_knight.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Hollow Knight</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/hollow-knight/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Hotline Miami">
+<img alt="Hotline Miami logo" class="game-icon" src="images/logos/hotline_miami.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Hotline Miami</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/hotline-miami.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Hyper Sandbox">
+<img alt="Hyper Sandbox logo" class="game-icon" src="images/logos/hyper_sandbox.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Hyper Sandbox</div>
+<div class="game-category">Sandbox</div>
+<a class="btn btn-primary" href="games/hyper-sandbox.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Idle Breakout">
+<img alt="Idle Breakout logo" class="game-icon" src="images/logos/idle_breakout.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Idle Breakout</div>
+<div class="game-category">Idle</div>
+<a class="btn btn-primary" href="games/idle-breakout/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Iron Lung">
+<img alt="Iron Lung logo" class="game-icon" src="images/logos/iron_lung.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Iron Lung</div>
+<div class="game-category">Horror</div>
+<a class="btn btn-primary" href="games/ironlung.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Level Devil">
+<img alt="Level Devil logo" class="game-icon" src="images/logos/level_devil.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Level Devil</div>
+<div class="game-category">Puzzle</div>
+<a class="btn btn-primary" href="games/level-devil/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Little Alchemy 2">
+<img alt="Little Alchemy 2 logo" class="game-icon" src="images/logos/little_alchemy_2.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Little Alchemy 2</div>
+<div class="game-category">Puzzle</div>
+<a class="btn btn-primary" href="games/littlealchemy2/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Mario Bros">
+<img alt="Mario Bros logo" class="game-icon" src="images/logos/mario_bros.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Mario Bros</div>
+<div class="game-category">Platformer</div>
+<a class="btn btn-primary" href="games/mario-bros/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Minecraft">
+<img alt="Minecraft logo" class="game-icon" src="images/logos/minecraft.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Minecraft</div>
+<div class="game-category">Sandbox</div>
+<a class="btn btn-primary" href="games/minecraft.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Monkey Mart">
+<img alt="Monkey Mart logo" class="game-icon" src="images/logos/monkey_mart.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Monkey Mart</div>
+<div class="game-category">Simulation</div>
+<a class="btn btn-primary" href="games/monkey-mart/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Moto X3M All">
+<div class="game-icon" style="background: linear-gradient(135deg, #7c2d12, #f97316);">
+<i class="fa-solid fa-motorcycle" style="color: white;"></i>
+</div>
+<div class="game-title">Moto X3M All</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/motox3m-all/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Mr. Bullet">
+<img alt="Mr. Bullet logo" class="game-icon" src="images/logos/mr__bullet.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Mr. Bullet</div>
+<div class="game-category">Shooter</div>
+<a class="btn btn-primary" href="games/mrbullet/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Music Player">
+<img alt="Music Player logo" class="game-icon" src="images/logos/music_player.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Music Player</div>
+<div class="game-category">Utility</div>
+<a class="btn btn-primary" href="games/musicplayer/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Music Player 2">
+<img alt="Music Player 2 logo" class="game-icon" src="images/logos/music_player_2.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Music Player 2</div>
+<div class="game-category">Utility</div>
+<a class="btn btn-primary" href="games/musicplayer2/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Nextbots">
+<img alt="Nextbots logo" class="game-icon" src="images/logos/nextbots.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Nextbots</div>
+<div class="game-category">Horror</div>
+<a class="btn btn-primary" href="games/nextbots.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="NZP">
+<img alt="NZP logo" class="game-icon" src="images/logos/nzp.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">NZP</div>
+<div class="game-category">Shooter</div>
+<a class="btn btn-primary" href="games/nzp.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Only Up Obby">
+<img alt="Only Up Obby logo" class="game-icon" src="images/logos/only_up_obby.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Only Up Obby</div>
+<div class="game-category">Platformer</div>
+<a class="btn btn-primary" href="games/onlyupobby/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Plants vs Brainrots">
+<img alt="Plants vs Brainrots logo" class="game-icon" src="images/logos/plants_vs_brainrots.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Plants vs Brainrots</div>
+<div class="game-category">Strategy</div>
+<a class="btn btn-primary" href="games/plants-vs-brainrots/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Plants vs Zombies">
+<img alt="Plants vs Zombies logo" class="game-icon" src="images/logos/plants_vs_zombies.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Plants vs Zombies</div>
+<div class="game-category">Strategy</div>
+<a class="btn btn-primary" href="games/pvz.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Plants vs Zombies 2">
+<img alt="Plants vs Zombies 2 logo" class="game-icon" src="images/logos/plants_vs_zombies_2.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Plants vs Zombies 2</div>
+<div class="game-category">Strategy</div>
+<a class="btn btn-primary" href="games/pvz2.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Police Pursuit">
+<img alt="Police Pursuit logo" class="game-icon" src="images/logos/police_pursuit.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Police Pursuit</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/police-pursuit/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Polytrack">
+<img alt="Polytrack logo" class="game-icon" src="images/logos/polytrack.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Polytrack</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/polytrack/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Ragdoll Archers">
+<img alt="Ragdoll Archers logo" class="game-icon" src="images/logos/ragdoll_archers.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Ragdoll Archers</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/ragdoll-archers/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Ragdoll Hit">
+<img alt="Ragdoll Hit logo" class="game-icon" src="images/logos/ragdoll_hit.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Ragdoll Hit</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/ragdoll-hit/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Ragdoll Hit (Alt)">
+<img alt="Ragdoll Hit (Alt) logo" class="game-icon" src="images/logos/ragdoll_hit__alt_.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Ragdoll Hit (Alt)</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/ragdoll-hit-main/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Retro Bowl">
+<img alt="Retro Bowl logo" class="game-icon" src="images/logos/retro_bowl.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Retro Bowl</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/retrobowl/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Retro Bowl College">
+<img alt="Retro Bowl College logo" class="game-icon" src="images/logos/retro_bowl_college.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Retro Bowl College</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/retrobowlcollege/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Retro Highway">
+<img alt="Retro Highway logo" class="game-icon" src="images/logos/retro_highway.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Retro Highway</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/retro-highway/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Riddle School">
+<img alt="Riddle School logo" class="game-icon" src="images/logos/riddle_school.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Riddle School</div>
+<div class="game-category">Puzzle</div>
+<a class="btn btn-primary" href="games/riddle-school/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Riot">
+<img alt="Riot logo" class="game-icon" src="images/logos/riot.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Riot</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/riot/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Ruffle (Flash)">
+<img alt="Ruffle (Flash) logo" class="game-icon" src="images/logos/ruffle__flash_.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Ruffle (Flash)</div>
+<div class="game-category">Utility</div>
+<a class="btn btn-primary" href="games/ruffle.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Run 3">
+<img alt="Run 3 logo" class="game-icon" src="images/logos/run_3.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Run 3</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/run/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Sandbox City">
+<img alt="Sandbox City logo" class="game-icon" src="images/logos/sandbox_city.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Sandbox City</div>
+<div class="game-category">Sandbox</div>
+<a class="btn btn-primary" href="games/sanbox-city/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Sandboxels">
+<img alt="Sandboxels logo" class="game-icon" src="images/logos/sandboxels.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Sandboxels</div>
+<div class="game-category">Sandbox</div>
+<a class="btn btn-primary" href="games/sandboxels/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Sandtris">
+<div class="game-icon" style="background: linear-gradient(135deg, #7c3aed, #a78bfa);">
+<i class="fa-solid fa-layer-group" style="color: white;"></i>
+</div>
+<div class="game-title">Sandtris</div>
+<div class="game-category">Puzzle</div>
+<a class="btn btn-primary" href="games/sandtris/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Sandtrix">
+<img alt="Sandtrix logo" class="game-icon" src="images/logos/sandtrix.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Sandtrix</div>
+<div class="game-category">Puzzle</div>
+<a class="btn btn-primary" href="games/sandtrix/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Slope">
+<img alt="Slope logo" class="game-icon" src="images/logos/slope.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Slope</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/slope/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Smash Karts">
+<img alt="Smash Karts logo" class="game-icon" src="images/logos/smash_karts.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Smash Karts</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/smash-karts.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Snow Battle.io">
+<img alt="Snow Battle.io logo" class="game-icon" src="images/logos/snow_battle_io.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Snow Battle.io</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/snowbattleio/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Snow Rider">
+<img alt="Snow Rider logo" class="game-icon" src="images/logos/snow_rider.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Snow Rider</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/snow-rider/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Soccer Bros">
+<img alt="Soccer Bros logo" class="game-icon" src="images/logos/soccer_bros.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Soccer Bros</div>
+<div class="game-category">Sports</div>
+<a class="btn btn-primary" href="games/soccer-bros.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Sonic">
+<img alt="Sonic logo" class="game-icon" src="images/logos/sonic.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Sonic</div>
+<div class="game-category">Platformer</div>
+<a class="btn btn-primary" href="games/sonic/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Soundboard">
+<img alt="Soundboard logo" class="game-icon" src="images/logos/soundboard.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Soundboard</div>
+<div class="game-category">Utility</div>
+<a class="btn btn-primary" href="games/soundboard.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Space Wave">
+<img alt="Space Wave logo" class="game-icon" src="images/logos/space_wave.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Space Wave</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/space-wave/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Steal a Brainrot">
+<img alt="Steal a Brainrot logo" class="game-icon" src="images/logos/steal_a_brainrot.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Steal a Brainrot</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/steal-a-brainrot/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Stickman Hook">
+<img alt="Stickman Hook logo" class="game-icon" src="images/logos/stickman_hook.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Stickman Hook</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/stickman-hook/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Stunt Bike Extreme">
+<img alt="Stunt Bike Extreme logo" class="game-icon" src="images/logos/stunt_bike_extreme.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Stunt Bike Extreme</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/stunt-bike-extreme/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Subway Surfers">
+<img alt="Subway Surfers logo" class="game-icon" src="images/logos/subway_surfers.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Subway Surfers</div>
+<div class="game-category">Endless Runner</div>
+<a class="btn btn-primary" href="games/subway-surfers/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Super Mario 64">
+<img alt="Super Mario 64 logo" class="game-icon" src="images/logos/super_mario_64.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Super Mario 64</div>
+<div class="game-category">Platformer</div>
+<a class="btn btn-primary" href="games/super-mario-64/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Survival Race">
+<img alt="Survival Race logo" class="game-icon" src="images/logos/survival_race.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Survival Race</div>
+<div class="game-category">Racing</div>
+<a class="btn btn-primary" href="games/survival-race.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Tag">
+<img alt="Tag logo" class="game-icon" src="images/logos/tag.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Tag</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/tag/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Tanuki Sunset">
+<img alt="Tanuki Sunset logo" class="game-icon" src="images/logos/tanuki_sunset.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Tanuki Sunset</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/tanuki-sunset/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Terraria">
+<img alt="Terraria logo" class="game-icon" src="images/logos/terraria.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Terraria</div>
+<div class="game-category">Sandbox</div>
+<a class="btn btn-primary" href="games/terraria/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Tiny Fishing">
+<img alt="Tiny Fishing logo" class="game-icon" src="images/logos/tiny_fishing.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Tiny Fishing</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/tiny-fishing/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="TNMN">
+<img alt="TNMN logo" class="game-icon" src="images/logos/tnmn.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">TNMN</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/tnmn.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Tomb of the Mask">
+<img alt="Tomb of the Mask logo" class="game-icon" src="images/logos/tomb_of_the_mask.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Tomb of the Mask</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/tombofthemask/index.html" style="width: 100%;" target="_blank">Play
+          Now</a>
+</div>
+<div class="glass-card game-card" data-title="Traffic Jam">
+<img alt="Traffic Jam logo" class="game-icon" src="images/logos/traffic_jam.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Traffic Jam</div>
+<div class="game-category">Puzzle</div>
+<a class="btn btn-primary" href="games/trafficjam.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Tunnel Rush">
+<img alt="Tunnel Rush logo" class="game-icon" src="images/logos/tunnel_rush.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Tunnel Rush</div>
+<div class="game-category">Arcade</div>
+<a class="btn btn-primary" href="games/tunnel-rush/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="ULTRAKILL">
+<img alt="ULTRAKILL logo" class="game-icon" src="images/logos/ultrakill.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">ULTRAKILL</div>
+<div class="game-category">Shooter</div>
+<a class="btn btn-primary" href="games/ultrakill/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Undertale">
+<img alt="Undertale logo" class="game-icon" src="images/logos/undertale.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Undertale</div>
+<div class="game-category">RPG</div>
+<a class="btn btn-primary" href="games/undertale.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Unfair Mario">
+<img alt="Unfair Mario logo" class="game-icon" src="images/logos/unfair_mario.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Unfair Mario</div>
+<div class="game-category">Platformer</div>
+<a class="btn btn-primary" href="games/unfairmario.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Vex">
+<img alt="Vex logo" class="game-icon" src="images/logos/vex.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Vex</div>
+<div class="game-category">Platformer</div>
+<a class="btn btn-primary" href="games/vex/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Vice City">
+<img alt="Vice City logo" class="game-icon" src="images/logos/vice_city.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Vice City</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/vicecity/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Vox">
+<img alt="Vox logo" class="game-icon" src="images/logos/vox.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Vox</div>
+<div class="game-category">Sandbox</div>
+<a class="btn btn-primary" href="games/vox.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="We Become What We Behold">
+<img alt="We Become What We Behold logo" class="game-icon" src="images/logos/we_become_what_we_behold.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">We Become What We Behold</div>
+<div class="game-category">Casual</div>
+<a class="btn btn-primary" href="games/webecomewhatwebehold/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="WHG">
+<img alt="WHG logo" class="game-icon" src="images/logos/whg.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">WHG</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/whg.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="WorldBox">
+<img alt="WorldBox logo" class="game-icon" src="images/logos/worldbox.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">WorldBox</div>
+<div class="game-category">Sandbox</div>
+<a class="btn btn-primary" href="games/worldbox/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+<div class="glass-card game-card" data-title="Yo-ho-ho!">
+<img alt="Yo-ho-ho! logo" class="game-icon" src="images/logos/yo_ho_ho_.jpg" style="background: transparent; padding: 0;"/>
+<div class="game-title">Yo-ho-ho!</div>
+<div class="game-category">Action</div>
+<a class="btn btn-primary" href="games/yohoho/index.html" style="width: 100%;" target="_blank">Play Now</a>
+</div>
+
+<div class="no-results" id="noResults" hidden>
+<i class="fa-solid fa-face-frown"></i>
+<h3>No games found</h3>
+<p>Try a different search or category.</p>
+</div>
+</div>
+</main>
+<script src="javascript.js"></script>
+<script>
+    let activeCategory = 'All';
+
+    function normalize(s) {
+      return (s || '').toLowerCase().trim();
+    }
+
+    function filterGames() {
+      const search = normalize(document.getElementById('gameSearch').value);
+      const cards = Array.from(document.querySelectorAll('.game-card'));
+      let shown = 0;
+
+      cards.forEach(card => {
+        const title = normalize(card.getAttribute('data-title'));
+        const category = normalize(card.querySelector('.game-category')?.textContent);
+        const matchesSearch = !search || title.includes(search);
+        const matchesCat = activeCategory === 'All' || category === normalize(activeCategory);
+        card.style.display = (matchesSearch && matchesCat) ? 'flex' : 'none';
+        if (matchesSearch && matchesCat) shown++;
+      });
+
+      document.getElementById('resultsCount').textContent = shown;
+      document.getElementById('noResults').hidden = shown !== 0;
+    }
+
+    function buildChips() {
+      const cats = new Set();
+      document.querySelectorAll('.game-card .game-category').forEach(el => cats.add(el.textContent.trim()));
+      const container = document.getElementById('filterChips');
+      ['All', ...Array.from(cats).sort()].forEach(cat => {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'chip' + (cat === 'All' ? ' active' : '');
+        chip.textContent = cat;
+        chip.addEventListener('click', () => {
+          activeCategory = cat;
+          Array.from(container.children).forEach(c => c.classList.remove('active'));
+          chip.classList.add('active');
+          filterGames();
+        });
+        container.appendChild(chip);
+      });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      buildChips();
+      filterGames();
+    });
+  </script>
+  <script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+  <script src="javascript.js"></script>
+</body>
+</html>

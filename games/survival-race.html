@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/z-f3-f1/1@main/style.css">
+
+  <!-- GameMonetize SDK -->
+  <script id="gamemonetize-sdk" src="https://cdn.jsdelivr.net/gh/testamalame/sef@main/sedk.js"></script>
+  <script>
+    window.SDK_OPTIONS = {
+      gameId: "jp112o3o4hzgrnc7zaewjkrfk282pul8",
+      onEvent(a) {
+        if (!window.myGameInstance) return;
+        if (a.name === "SDK_GAME_PAUSE") {
+          myGameInstance.SendMessage("AudioManager", "MuteAudio");
+        }
+        if (a.name === "SDK_GAME_START") {
+          myGameInstance.SendMessage("AudioManager", "UnmuteAudio");
+        }
+      }
+    };
+  </script>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background: #000;
+      overflow: hidden;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+    #unity-container { position: fixed; inset: 0; }
+    #unity-canvas { width: 100%; height: 100%; display: block; outline: none; }
+    #loading-cover {
+      position: fixed; inset: 0; background: #000;
+      display: flex; align-items: center; justify-content: center; z-index: 10;
+    }
+    #unity-progress-bar-empty { width: 220px; height: 6px; background: #222; }
+    #unity-progress-bar-full { width: 0%; height: 100%; background: #fff; transition: width .15s linear; }
+  </style>
+</head>
+
+<body class="dark">
+
+<div id="unity-container">
+  <canvas id="unity-canvas" tabindex="-1"></canvas>
+</div>
+
+<div id="loading-cover">
+  <div id="unity-progress-bar-empty">
+    <div id="unity-progress-bar-full"></div>
+  </div>
+</div>
+
+<script>
+/* ================= ENVIRONMENT ================= */
+window.environmentData = {
+  language: navigator.language || "en",
+  domain: "default",
+  deviceType: /Mobi|Android/i.test(navigator.userAgent) ? "mobile" : "desktop",
+  isMobile: /Mobi|Android/i.test(navigator.userAgent),
+  isDesktop: !/Mobi|Android/i.test(navigator.userAgent),
+  isTablet: false,
+  isTV: false,
+  appID: "web",
+  browserLang: navigator.language || "en",
+  payload: null,
+  promptCanShow: false,
+  reviewCanShow: false,
+  platform: navigator.platform || "web",
+  browser: "Chrome"
+};
+
+/* ================= YANDEX SDK STUB ================= */
+window.ysdk = {
+  features: {},
+  adv: {
+    showFullscreenAdv: () => Promise.resolve(),
+    showRewardedVideo: () => Promise.resolve()
+  },
+  getPlayer: () => Promise.resolve({
+    getData: () => ({}),
+    setData: () => Promise.resolve(),
+    getStats: () => ({}),
+    setStats: () => Promise.resolve()
+  }),
+  getPayments: () => Promise.resolve(null),
+  getLeaderboards: () => Promise.resolve(null),
+  feedback: {
+    canReview: false,
+    requestReview: () => Promise.resolve()
+  }
+};
+
+/* ================= CLOUD / PAYMENTS STUBS ================= */
+window.cloudSaves = "noData";
+window.paymentsData = "none";
+window.playerData = "noData";
+window.player = null;
+window.payments = null;
+
+window.GetPayments = () => Promise.resolve("none");
+window.SaveCloud = () => {};
+window.LoadCloud = () => Promise.resolve("noData");
+window.InitPlayer = () => Promise.resolve("noData");
+window.FullAdShow = () => {};
+window.RewardedShow = () => {};
+window.StickyAdActivity = () => {};
+window.Review = () => {};
+window.PromptShow = () => {};
+window.InitLeaderboards = () => {};
+window.GetLeaderboardScores = () => {};
+window.SetLeaderboardScores = () => {};
+window.ConsumePurchase = () => {};
+window.ConsumePurchases = () => {};
+window.InitLeaderboard = () => {};
+window.BuyPayments = () => {};
+
+/* ================= REQUIRED INITGAME STUB ================= */
+window.InitGame = function () {
+  try {
+    console.log("InitGame stub called");
+    if (window.myGameInstance) {
+      // no-op; stub exists to satisfy Unity/Yandex calls
+    }
+  } catch (e) {
+    console.warn(e);
+  }
+};
+
+/* ================= AUDIO UNLOCK ================= */
+function resumeAudio() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    if (ctx.state === "suspended") ctx.resume();
+  } catch {}
+  window.removeEventListener("pointerdown", resumeAudio);
+  window.removeEventListener("touchstart", resumeAudio);
+}
+window.addEventListener("pointerdown", resumeAudio);
+window.addEventListener("touchstart", resumeAudio);
+
+/* ================= UNITY BOOT ================= */
+const buildUrl = "https://cdn.jsdelivr.net/gh/z-f3-f1/1@main/Build";
+const loaderUrl = buildUrl + "/yandexBrotli.loader.js";
+
+const config = {
+  dataUrl: buildUrl + "/yandexBrotli.data.br",
+  frameworkUrl: buildUrl + "/yandexBrotli.framewor.js",
+  streamingAssetsUrl: "StreamingAssets",
+  companyName: "Brain massage",
+  productName: "Supercar Battle Royale",
+  productVersion: "0.0.197",
+  webAssemblyStreaming: false
+};
+
+const wasmParts = [
+  "yandexBrotli.wasm.br.part1",
+  "yandexBrotli.wasm.br.part2"
+];
+
+const canvas = document.getElementById("unity-canvas");
+const loadingCover = document.getElementById("loading-cover");
+const progressBar = document.getElementById("unity-progress-bar-full");
+
+let myGameInstance = null;
+
+function mergeWasm(parts, done) {
+  const buffers = [];
+  (function next(i) {
+    if (i >= parts.length) return done(new Blob(buffers));
+    fetch(buildUrl + "/" + parts[i])
+      .then(r => r.arrayBuffer())
+      .then(b => { buffers.push(new Uint8Array(b)); next(i + 1); });
+  })(0);
+}
+
+mergeWasm(wasmParts, blob => {
+  config.codeUrl = URL.createObjectURL(blob);
+  const s = document.createElement("script");
+  s.src = loaderUrl;
+  s.onload = () => {
+    createUnityInstance(canvas, config, p => {
+      progressBar.style.width = (p * 100) + "%";
+    }).then(instance => {
+      myGameInstance = instance;
+      loadingCover.style.display = "none";
+    }).catch(console.error);
+  };
+  document.body.appendChild(s);
+});
+
+document.addEventListener("contextmenu", e => e.preventDefault());
+window.addEventListener("pointerdown", () => canvas.focus());
+window.addEventListener("touchstart", () => canvas.focus());
+</script>
+
+</body>
+</html>

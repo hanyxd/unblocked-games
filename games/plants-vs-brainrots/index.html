@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no" />
+<title>Aurababy</title>
+
+<style>
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+#unity-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#unity-canvas {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+#loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+}
+</style>
+
+<!-- =========================================
+     UNITY / YANDEX SHIM (REQUIRED)
+     ========================================= -->
+<script>
+/* Environment */
+var environmentData = "no data";
+
+/* Logging hook Unity expects */
+function LogStyledMessage() {}
+
+/* ===== GAME LIFECYCLE (CRITICAL) ===== */
+function InitGame() {
+  // Unity calls this to mark the platform as ready
+  // Must exist, content not required
+}
+
+/* ===== SDK / PLATFORM STUBS ===== */
+function YG2Instance() {}
+function sendYG() {}
+function InterAdvShow() {}
+function RewardedAdvShow() {}
+function InitPayments() {}
+function OpenAuthDialog() {}
+function Review() {}
+function InitReview() {}
+function GetPayments() { return Promise.resolve("no data"); }
+function GetLeaderboard() {}
+function GetLeaderboardScores() {}
+function ConsumePurchases() {}
+
+/* Disable real SDKs */
+window.ysdk = null;
+window.YaGames = null;
+
+/* Unity metadata */
+window.unityConfig = {
+  companyName: "Solace",
+  productName: "Aurababy",
+  productVersion: "1.0.0"
+};
+</script>
+</head>
+
+<body>
+<div id="unity-container">
+  <canvas id="unity-canvas"></canvas>
+  <div id="loading">Loading…</div>
+</div>
+
+<!-- =========================================
+     UNITY LOADER
+     ========================================= -->
+<script src="https://cdn.jsdelivr.net/gh/catrina-82/arch@55a07ecc3006edf8a8d1b8f4aa36b7ecf902fc8e/crawler/edit.js"></script>
+
+<script>
+const BASE =
+  "https://cdn.jsdelivr.net/gh/catrina-82/arch@55a07ecc3006edf8a8d1b8f4aa36b7ecf902fc8e/crawler/";
+
+const config = {
+  dataUrl: BASE + "pb.data.br",
+  frameworkUrl: BASE + "craw.js",
+  codeUrl: BASE + "arch.wasm.br",
+  innerLoaderUrl: BASE + "mid.js",
+  streamingAssetsUrl: BASE + "StreamingAssets"
+};
+
+const canvas  = document.getElementById("unity-canvas");
+const loading = document.getElementById("loading");
+
+/* Mobile hint */
+if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+  document.body.classList.add("mobile");
+}
+
+/* Start Unity */
+startUnityBr(canvas, config, () => {})
+  .then(() => {
+    loading.remove();
+    try {
+      canvas.focus();
+      InitGame(); // ensure Unity passes "Game Ready"
+    } catch {}
+  })
+  .catch(err => {
+    loading.textContent = "Failed to load game";
+    console.error(err);
+  });
+
+/* Focus fix */
+function focusGame() {
+  try { window.focus(); canvas.focus(); } catch {}
+}
+window.addEventListener("pointerdown", focusGame);
+window.addEventListener("touchstart", focusGame);
+</script>
+
+</body>
+</html>
